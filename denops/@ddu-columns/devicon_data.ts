@@ -1,5 +1,5 @@
-import { Denops, fn } from "https://deno.land/x/ddu_vim@v2.0.0/deps.ts";
-import { extname } from "https://deno.land/std@0.165.0/path/mod.ts";
+import { Denops, fn } from "https://deno.land/x/ddu_vim@v2.8.3/deps.ts";
+import { extname } from "https://deno.land/std@0.185.0/path/mod.ts";
 
 type DeviconData = {
   icon: string;
