@@ -36,12 +36,24 @@ export class Column extends BaseColumn<Params> {
     items: DduItem[];
   }): Promise<number> {
     const widths = await Promise.all(args.items.map(
-      async (item) =>
-        item.__level + 1 +
-        (await fn.strwidth(
+      async (item) => {
+        const action = item?.action as ActionData;
+        const isLink = action.isLink ?? false;
+        const isDirectory = item.isTree ?? false;
+        let path = basename(action.path ?? item.word) +
+          (isDirectory ? "/" : "");
+
+        if (isLink && action.path) {
+          path += ` -> ${await Deno.realPath(action.path)}`;
+        }
+
+        const length = item.__level + 1 + (await fn.strwidth(
           args.denops,
-          args.columnParams.iconWidth + (item.display ?? item.word),
-        ) as number),
+          args.columnParams.iconWidth + path,
+        ) as number);
+
+        return length;
+      },
     )) as number[];
     return Math.max(...widths);
   }
