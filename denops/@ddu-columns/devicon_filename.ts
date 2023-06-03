@@ -40,8 +40,7 @@ export class Column extends BaseColumn<Params> {
         const action = item?.action as ActionData;
         const isLink = action.isLink ?? false;
         const isDirectory = item.isTree ?? false;
-        let path = basename(action.path ?? item.word) +
-          (isDirectory ? "/" : "");
+        let path = basename(action.path ?? item.word) + (isDirectory ? "/" : "");
 
         if (isLink && action.path) {
           path += ` -> ${await Deno.realPath(action.path)}`;
@@ -69,8 +68,7 @@ export class Column extends BaseColumn<Params> {
     const highlights: ItemHighlight[] = [];
     const isDirectory = args.item.isTree ?? false;
     const isLink = action.isLink ?? false;
-    const path = basename(action.path ?? args.item.word) +
-      (isDirectory ? "/" : "");
+    const path = basename(action.path ?? args.item.word) + (isDirectory ? "/" : "");
 
     if (isDirectory) {
       const userHighlights = args.columnParams.highlights;
@@ -84,8 +82,7 @@ export class Column extends BaseColumn<Params> {
       highlights.push({
         name: "column-filename-directory-name",
         "hl_group": userHighlights.directoryName ?? "Directory",
-        col: args.startCol + args.item.__level +
-          args.columnParams.iconWidth + 1,
+        col: args.startCol + args.item.__level + args.columnParams.iconWidth + 1,
         width: path.length,
       });
     } else if (isLink) {
@@ -100,8 +97,7 @@ export class Column extends BaseColumn<Params> {
       highlights.push({
         name: "column-filename-link-name",
         "hl_group": userHighlights.linkName ?? "Comment",
-        col: args.startCol + args.item.__level +
-          args.columnParams.iconWidth + 1,
+        col: args.startCol + args.item.__level + args.columnParams.iconWidth + 1,
         width: path.length,
       });
     }
