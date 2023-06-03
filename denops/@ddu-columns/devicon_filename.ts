@@ -46,7 +46,9 @@ export class Column extends BaseColumn<Params> {
     return Math.max(...widths);
   }
 
-  override async getText(args: { denops: Denops; columnParams: Params;
+  override async getText(args: {
+    denops: Denops;
+    columnParams: Params;
     startCol: number;
     endCol: number;
     item: DduItem;
