@@ -1,10 +1,11 @@
 import {
-  BaseColumn, DduItem,
-  ItemHighlight,
-} from "https://deno.land/x/ddu_vim@v2.0.0/types.ts";
-import { GetTextResult } from "https://deno.land/x/ddu_vim@v2.0.0/base/column.ts";
-import { Denops, fn } from "https://deno.land/x/ddu_vim@v2.0.0/deps.ts";
-import { basename } from "https://deno.land/std@0.165.0/path/mod.ts";
+  BaseColumn,
+  DduItem,
+  ItemHighlight
+} from "https://deno.land/x/ddu_vim@v2.8.3/types.ts";
+import { GetTextResult } from "https://deno.land/x/ddu_vim@v2.8.3/base/column.ts";
+import { Denops, fn } from "https://deno.land/x/ddu_vim@v2.8.3/deps.ts";
+import { basename } from "https://deno.land/std@0.185.0/path/mod.ts";
 import { getDevicon, setDeviconColor } from "./devicon_data.ts";
 
 type Params = {
