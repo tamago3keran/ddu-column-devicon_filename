@@ -17,7 +17,8 @@ type Params = {
 
 type HighlightGroup = {
   directoryIcon?: string;
-  directoryName?: string; linkIcon?: string;
+  directoryName?: string;
+  linkIcon?: string;
   linkName?: string;
 };
 
