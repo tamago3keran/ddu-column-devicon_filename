@@ -39,10 +39,16 @@ export const setDeviconColor = async (args: {
 const getDeviconData = (args: {
   fileName: string;
 }): IconData => {
-  return icons[args.fileName] ?? icons[extname(args.fileName).substring(1)];
+  return (icons[args.fileName] ?? icons[extname(args.fileName).substring(1)]) ?? icons["default"];
 }
 
 const icons = {
+  "default": {
+    icon: "",
+    color: "#ffffff",
+    cterm_color: "white",
+    name: "Default",
+  },
   ".babelrc": {
     icon: "ﬥ",
     color: "#cbcb41",
