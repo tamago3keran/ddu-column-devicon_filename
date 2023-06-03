@@ -14,6 +14,7 @@ type Params = {
   iconWidth: number;
   linkIcon: string;
   highlights: HighlightGroup;
+  indentationWidth: number;
 };
 
 type HighlightGroup = {
@@ -35,20 +36,24 @@ export class Column extends BaseColumn<Params> {
     columnParams: Params;
     items: DduItem[];
   }): Promise<number> {
-    const widths = await Promise.all(args.items.map(
+    const {denops, columnParams, items} = args;
+    const {indentationWidth, iconWidth} = columnParams;
+
+    const widths = await Promise.all(items.map(
       async (item) => {
         const action = item?.action as ActionData;
         const isLink = action.isLink ?? false;
         const isDirectory = item.isTree ?? false;
+        const indentation = this.getIndentation({level: item.__level, indentationWidth: indentationWidth});
         let path = basename(action.path ?? item.word) + (isDirectory ? "/" : "");
 
         if (isLink && action.path) {
           path += ` -> ${await Deno.realPath(action.path)}`;
         }
 
-        const length = item.__level + 1 + (await fn.strwidth(
-          args.denops,
-          args.columnParams.iconWidth + path,
+        const length = indentation + 1 + (await fn.strwidth(
+          denops,
+          iconWidth + path,
         ) as number);
 
         return length;
@@ -64,69 +69,73 @@ export class Column extends BaseColumn<Params> {
     endCol: number;
     item: DduItem;
   }): Promise<GetTextResult> {
-    const action = args.item?.action as ActionData;
-    const highlights: ItemHighlight[] = [];
-    const isDirectory = args.item.isTree ?? false;
+    const {denops, columnParams, startCol, endCol, item} = args;
+    const {collapsedIcon, expandedIcon, iconWidth, linkIcon, highlights, indentationWidth} = columnParams;
+
+    const action = item?.action as ActionData;
+    const itemHighlights: ItemHighlight[] = [];
+    const isDirectory = item.isTree ?? false;
     const isLink = action.isLink ?? false;
-    const path = basename(action.path ?? args.item.word) + (isDirectory ? "/" : "");
+    const path = basename(action.path ?? item.word) + (isDirectory ? "/" : "");
+    const indentation = this.getIndentation({level: item.__level, indentationWidth: indentationWidth});
 
     if (isDirectory) {
-      const userHighlights = args.columnParams.highlights;
-      highlights.push({
+      const userHighlights = highlights;
+      itemHighlights.push({
         name: "column-filename-directory-icon",
         "hl_group": userHighlights.directoryIcon ?? "Special",
-        col: args.startCol + args.item.__level,
-        width: args.columnParams.iconWidth,
+        col: startCol + indentation,
+        width: iconWidth,
       });
 
-      highlights.push({
+      itemHighlights.push({
         name: "column-filename-directory-name",
         "hl_group": userHighlights.directoryName ?? "Directory",
-        col: args.startCol + args.item.__level + args.columnParams.iconWidth + 1,
+        col: startCol + indentation + iconWidth + 1,
         width: path.length,
       });
     } else if (isLink) {
-      const userHighlights = args.columnParams.highlights;
-      highlights.push({
+      const userHighlights = highlights;
+      itemHighlights.push({
         name: "column-filename-link-icon",
         "hl_group": userHighlights.linkIcon ?? "Comment",
-        col: args.startCol + args.item.__level,
-        width: args.columnParams.iconWidth,
+        col: startCol + indentation,
+        width: iconWidth,
       });
 
-      highlights.push({
+      itemHighlights.push({
         name: "column-filename-link-name",
         "hl_group": userHighlights.linkName ?? "Comment",
-        col: args.startCol + args.item.__level + args.columnParams.iconWidth + 1,
+        col: startCol + indentation + iconWidth + 1,
         width: path.length,
       });
     }
 
-    const directoryIcon = args.item.__expanded
-      ? args.columnParams.expandedIcon
-      : args.columnParams.collapsedIcon;
+    const directoryIcon = item.__expanded
+      ? expandedIcon
+      : collapsedIcon;
     const icon = isDirectory
       ? directoryIcon
       : isLink
-      ? args.columnParams.linkIcon
+      ? linkIcon
       : getDevicon({ fileName: path });
-    const text = " ".repeat(args.item.__level) + icon + " " + path;
-    const width = await fn.strwidth(args.denops, text) as number;
-    const padding = " ".repeat(args.endCol - args.startCol - width);
+    const text = " ".repeat(indentation) + icon + " " + path;
+    const width = await fn.strwidth(denops, text) as number;
+    const padding = " ".repeat(endCol - startCol - width);
 
     if (!isDirectory && !isLink) {
       setDeviconColor({
-        denops: args.denops,
+        denops: denops,
         fileName: path,
-        highlights: highlights,
-        col: args.startCol + args.item.__level,
-        width: args.columnParams.iconWidth,
+        highlights: itemHighlights,
+        col: startCol + indentation,
+        width: iconWidth,
       });
     }
 
     return Promise.resolve({
       text: text + padding,
-      highlights: highlights,
+      highlights: itemHighlights,
     });
   }
 
@@ -137,6 +146,14 @@ export class Column extends BaseColumn<Params> {
       iconWidth: 3,
       linkIcon: "@",
       highlights: {},
+      indentationWidth: 1,
     };
+  }
+
+  private getIndentation = (args: {
+    level: number;
+    indentationWidth: number;
+  }): number => {
+    return args.level * args.indentationWidth;
   }
 }
