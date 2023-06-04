@@ -15,7 +15,8 @@ type Params = {
   linkIcon: string;
   highlights: HighlightGroup;
   indentationWidth: number;
-  fileIconColor: string;
+  fileIconColor?: string;
+  directoryIconColor?: string;
 };
 
 type HighlightGroup = {
@@ -71,7 +72,7 @@ export class Column extends BaseColumn<Params> {
     item: DduItem;
   }): Promise<GetTextResult> {
     const {denops, columnParams, startCol, endCol, item} = args;
-    const {collapsedIcon, expandedIcon, iconWidth, linkIcon, highlights, indentationWidth, fileIconColor} = columnParams;
+    const {collapsedIcon, expandedIcon, iconWidth, linkIcon, highlights, indentationWidth, fileIconColor, directoryIconColor} = columnParams;
 
     const action = item?.action as ActionData;
     const itemHighlights: ItemHighlight[] = [];
@@ -83,8 +84,8 @@ export class Column extends BaseColumn<Params> {
     if (isDirectory) {
       const userHighlights = highlights;
       itemHighlights.push({
-        name: "column-filename-directory-icon",
-        "hl_group": userHighlights.directoryIcon ?? "Special",
+        name: "ddu_column_devicon_filename_directory_icon",
+        "hl_group": userHighlights.directoryIcon ?? "ddu_column_devicon_filename_directory_icon",
         col: startCol + indentation,
         width: iconWidth,
       });
@@ -98,8 +99,8 @@ export class Column extends BaseColumn<Params> {
     } else if (isLink) {
       const userHighlights = highlights;
       itemHighlights.push({
-        name: "column-filename-link-icon",
-        "hl_group": userHighlights.linkIcon ?? "Comment",
+        name: "ddu_column_devicon_filename_link_icon",
+        "hl_group": userHighlights.linkIcon ?? "ddu_column_devicon_filename_link_icon",
         col: startCol + indentation,
         width: iconWidth,
       });
@@ -135,6 +136,11 @@ export class Column extends BaseColumn<Params> {
       });
     }
 
+    this.addHighlightGroup({
+      denops: denops,
+      directoryIconColor: directoryIconColor
+    })
+
     return Promise.resolve({
       text: text + padding,
       highlights: itemHighlights,
@@ -150,6 +156,7 @@ export class Column extends BaseColumn<Params> {
       highlights: {},
       indentationWidth: 1,
       fileIconColor: null,
+      directoryIconColor: null,
     };
   }
 
@@ -159,5 +166,13 @@ export class Column extends BaseColumn<Params> {
   }): number => {
     const {level, indentationWidth} = args;
     return level * indentationWidth;
+  }
+
+  private addHighlightGroup = (args: {
+    denops: Denops;
+    directoryIconColor: string;
+  }): void => {
+    const {denops, directoryIconColor} = args;
+    if (directoryIconColor) denops.cmd(`hi default ddu_column_devicon_filename_directory_icon guifg=${directoryIconColor}`);
   }
 }
