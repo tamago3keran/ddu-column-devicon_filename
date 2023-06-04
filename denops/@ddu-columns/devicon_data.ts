@@ -22,9 +22,8 @@ export const setDeviconColor = async (args: {
   highlights: Array<object>;
   col: number;
   width: number;
-  color: string;
 }): string => {
-  const {denops, fileName, highlights, col, width, color} = args;
+  const {denops, fileName, highlights, col, width} = args;
   const iconData = getDeviconData({ fileName: fileName });
   if (!iconData) return;
 
@@ -35,9 +34,7 @@ export const setDeviconColor = async (args: {
     col: col,
     width: width,
   });
-
-  const iconColor = color ?? iconData.color;
-  denops.cmd(`hi default ${hl_group} guifg=${iconColor}`);
+  denops.cmd(`hi default ${hl_group} guifg=${iconData.color}`);
 }
 
 const getDeviconData = (args: {
