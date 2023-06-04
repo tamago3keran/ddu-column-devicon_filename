@@ -28,9 +28,9 @@ export const setDeviconColor = async (args: {
   const iconData = getDeviconData({ fileName: fileName });
   if (!iconData) return;
 
-  const hl_group = `ddu_column_devicon_filename_file_icon_${iconData.name}`;
+  const hl_group = `ddu_column_${iconData.name}`;
   highlights.push({
-    name: "ddu_column_devicon_filename_file_icon",
+    name: "column-icons-icon",
     hl_group: hl_group,
     col: col,
     width: width,

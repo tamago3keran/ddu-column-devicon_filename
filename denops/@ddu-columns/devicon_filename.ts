@@ -15,7 +15,7 @@ type Params = {
   linkIcon: string;
   highlights: HighlightGroup;
   indentationWidth: number;
-  fileIconColor: string;
+  iconColor: string;
 };
 
 type HighlightGroup = {
@@ -71,7 +71,7 @@ export class Column extends BaseColumn<Params> {
     item: DduItem;
   }): Promise<GetTextResult> {
     const {denops, columnParams, startCol, endCol, item} = args;
-    const {collapsedIcon, expandedIcon, iconWidth, linkIcon, highlights, indentationWidth, fileIconColor} = columnParams;
+    const {collapsedIcon, expandedIcon, iconWidth, linkIcon, highlights, indentationWidth, iconColor} = columnParams;
 
     const action = item?.action as ActionData;
     const itemHighlights: ItemHighlight[] = [];
@@ -131,7 +131,7 @@ export class Column extends BaseColumn<Params> {
         highlights: itemHighlights,
         col: startCol + indentation,
         width: iconWidth,
-        color: fileIconColor,
+        color: iconColor,
       });
     }
 
@@ -149,7 +149,7 @@ export class Column extends BaseColumn<Params> {
       linkIcon: "@",
       highlights: {},
       indentationWidth: 1,
-      fileIconColor: null,
+      iconColor: null,
     };
   }
 
