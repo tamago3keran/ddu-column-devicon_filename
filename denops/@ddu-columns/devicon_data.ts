@@ -23,18 +23,20 @@ export const setDeviconColor = async (args: {
   col: number;
   width: number;
 }): string => {
-  const {denops, fileName, highlights, col, width} = args;
+  const {denops, fileName, highlights, col, width, color} = args;
   const iconData = getDeviconData({ fileName: fileName });
   if (!iconData) return;
 
-  const hl_group = `ddu_column_${iconData.name}`;
+  const hl_group = `ddu_column_devicon_filename_${iconData.name}`;
   highlights.push({
-    name: "column-icons-icon",
+    name: "ddu_column_devicon_filename_icon",
     hl_group: hl_group,
     col: col,
     width: width,
   });
-  denops.cmd(`hi default ${hl_group} guifg=${iconData.color}`);
+
+  const iconColor = color ?? iconData.color;
+  denops.cmd(`hi default ${hl_group} guifg=${iconColor}`);
 }
 
 const getDeviconData = (args: {

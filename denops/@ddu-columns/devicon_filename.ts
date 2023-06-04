@@ -15,6 +15,7 @@ type Params = {
   linkIcon: string;
   highlights: HighlightGroup;
   indentationWidth: number;
+  fileIconColor?: string;
 };
 
 type HighlightGroup = {
@@ -70,7 +71,7 @@ export class Column extends BaseColumn<Params> {
     item: DduItem;
   }): Promise<GetTextResult> {
     const {denops, columnParams, startCol, endCol, item} = args;
-    const {collapsedIcon, expandedIcon, iconWidth, linkIcon, highlights, indentationWidth} = columnParams;
+    const {collapsedIcon, expandedIcon, iconWidth, linkIcon, highlights, indentationWidth, fileIconColor} = columnParams;
 
     const action = item?.action as ActionData;
     const itemHighlights: ItemHighlight[] = [];
@@ -82,14 +83,14 @@ export class Column extends BaseColumn<Params> {
     if (isDirectory) {
       const userHighlights = highlights;
       itemHighlights.push({
-        name: "column-filename-directory-icon",
+        name: "ddu_column_devicon_filename_directory_icon",
         "hl_group": userHighlights.directoryIcon ?? "Special",
         col: startCol + indentation,
         width: iconWidth,
       });
 
       itemHighlights.push({
-        name: "column-filename-directory-name",
+        name: "ddu_column_devicon_filename_directory_name",
         "hl_group": userHighlights.directoryName ?? "Directory",
         col: startCol + indentation + iconWidth + 1,
         width: path.length,
@@ -97,14 +98,14 @@ export class Column extends BaseColumn<Params> {
     } else if (isLink) {
       const userHighlights = highlights;
       itemHighlights.push({
-        name: "column-filename-link-icon",
+        name: "ddu_column_devicon_filename_link_icon",
         "hl_group": userHighlights.linkIcon ?? "Comment",
         col: startCol + indentation,
         width: iconWidth,
       });
 
       itemHighlights.push({
-        name: "column-filename-link-name",
+        name: "ddu_column_devicon_filename_link_name",
         "hl_group": userHighlights.linkName ?? "Comment",
         col: startCol + indentation + iconWidth + 1,
         width: path.length,
@@ -130,6 +131,7 @@ export class Column extends BaseColumn<Params> {
         highlights: itemHighlights,
         col: startCol + indentation,
         width: iconWidth,
+        color: fileIconColor,
       });
     }
 
@@ -147,6 +149,7 @@ export class Column extends BaseColumn<Params> {
       linkIcon: "@",
       highlights: {},
       indentationWidth: 1,
+      fileIconColor: null,
     };
   }
 
