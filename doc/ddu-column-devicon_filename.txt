@@ -1,0 +1,103 @@
+*ddu-column-devicon_filename.txt*	Filename column for ddu.vim
+
+Author: tamago3keran
+License: MIT license
+
+CONTENTS					*ddu-column-devicon_filename-contents*
+
+Introduction		|ddu-column-devicon_filename-introduction|
+Install			|ddu-column-devicon_filename-install|
+Examples		|ddu-column-devicon_filename-examples|
+Params			|ddu-column-devicon_filename-params|
+
+
+==============================================================================
+INTRODUCTION				*ddu-column-devicon_filename-introduction*
+
+This column displays filename with devicon.
+
+
+==============================================================================
+INSTALL						*ddu-column-devicon_filename-install*
+
+Please install both "ddu.vim" and "denops.vim".
+
+https://github.com/Shougo/ddu.vim
+https://github.com/vim-denops/denops.vim
+
+
+==============================================================================
+EXAMPLES					*ddu-column-devicon_filename-examples*
+>
+	call ddu#custom#patch_global(#{
+	    \   columns: ['devicon_filename'],
+	    \ })
+<
+
+==============================================================================
+PARAMS						*ddu-column-devicon_filename-params*
+
+				    *ddu-column-devicon_filename-param-collapsedIcon*
+collapsedIcon	(string)
+		The collapsed directory icon.
+
+		Default: ""
+
+				    *ddu-column-devicon_filename-param-expandedIcon*
+expandedIcon	(string)
+		The expanded directory icon.
+
+		Default: ""
+
+				    *ddu-column-devicon_filename-param-iconWidth*
+iconWidth	(string)
+		The icon width.
+
+		Default: 3
+
+				    *ddu-column-devicon_filename-param-linkIcon*
+linkIcon	(string)
+		The expanded directory icon.
+
+		Default: "@"
+
+				    	*ddu-column-devicon_filename-param-highlights*
+highlights	(dictionary)
+		It specifies ddu-column-filename highlights.
+		It can contain following keys
+
+		directoryIcon			(string)
+		Specify directory icon highlight.
+		Default: "Special"
+
+		directoryName			(string)
+		Specify directory name highlight.
+		Default: "Directory"
+
+		linkIcon			(string)
+		Specify link icon highlight.
+		Default: "Comment"
+
+		linkName			(string)
+		Specify link name highlight.
+		Default: "Comment"
+
+		Default: {}
+
+				    	*ddu-column-devicon_filename-param-indentationWidth*
+indentationWidth (number)
+    The indentation width.
+
+    Default: 1
+
+				    	*ddu-column-devicon_filename-param-fileIconColor*
+fileIconColor (string)
+		The color of file icon which like "#ffffff".
+    Note: All file icons are displayed in the specified color.
+    Note: It does not apply to directory or link icons.
+
+    Default: null
+
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:norl:noet:fen:noet:
