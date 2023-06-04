@@ -154,6 +154,7 @@ export class Column extends BaseColumn<Params> {
     level: number;
     indentationWidth: number;
   }): number => {
-    return args.level * args.indentationWidth;
+    const {level, indentationWidth} = args;
+    return level * indentationWidth;
   }
 }
