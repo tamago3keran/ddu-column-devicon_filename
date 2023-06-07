@@ -11,10 +11,6 @@ https://github.com/vim-denops/denops.vim
 
 https://github.com/Shougo/ddu.vim
 
-### nvim-web-devicons
-
-https://github.com/nvim-tree/nvim-web-devicons
-
 ## Configuration
 
 ```vim
