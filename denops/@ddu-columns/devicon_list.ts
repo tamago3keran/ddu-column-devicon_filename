@@ -8,1421 +8,3875 @@ export const getDeviconList = () => {
         name: "Default"
       },
       ".babelrc": {
-        icon: "ﬥ",
+        icon: "",
         color: "#cbcb41",
         cterm_color: "185",
-        name: "Babelrc"
+        name: "Babelrc",
       },
       ".bash_profile": {
         icon: "",
         color: "#89e051",
         cterm_color: "113",
-        name: "BashProfile"
+        name: "BashProfile",
       },
       ".bashrc": {
         icon: "",
         color: "#89e051",
         cterm_color: "113",
-        name: "Bashrc"
+        name: "Bashrc",
       },
-      ".DS_Store": {
+      ".clang-format": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "ClangConfig",
+      },
+      ".clang-tidy": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "ClangConfig",
+      },
+      ".codespellrc": {
+        icon: "󰓆",
+        color: "#35DA60",
+        cterm_color: "41",
+        name: "Codespell",
+      },
+      ".condarc": {
+        icon: "",
+        color: "#43b02a",
+        cterm_color: "34",
+        name: "Conda",
+      },
+      ".dockerignore": {
+        icon: "󰡨",
+        color: "#458ee6",
+        cterm_color: "68",
+        name: "Dockerfile",
+      },
+      ".ds_store": {
         icon: "",
         color: "#41535b",
-        cterm_color: "59",
-        name: "DsStore"
+        cterm_color: "239",
+        name: "DsStore",
+      },
+      ".editorconfig": {
+        icon: "",
+        color: "#fff2f2",
+        cterm_color: "255",
+        name: "EditorConfig",
+      },
+      ".env": {
+        icon: "",
+        color: "#faf743",
+        cterm_color: "227",
+        name: "Env",
+      },
+      ".eslintrc": {
+        icon: "",
+        color: "#4b32c3",
+        cterm_color: "56",
+        name: "Eslintrc",
+      },
+      ".eslintignore": {
+        icon: "",
+        color: "#4b32c3",
+        cterm_color: "56",
+        name: "EslintIgnore",
+      },
+      ".git-blame-ignore-revs": {
+        icon: "",
+        color: "#f54d27",
+        cterm_color: "196",
+        name: "GitBlameIgnore",
       },
       ".gitattributes": {
         icon: "",
-        color: "#41535b",
-        cterm_color: "59",
-        name: "GitAttributes"
+        color: "#f54d27",
+        cterm_color: "196",
+        name: "GitAttributes",
       },
       ".gitconfig": {
         icon: "",
-        color: "#41535b",
-        cterm_color: "59",
-        name: "GitConfig"
+        color: "#f54d27",
+        cterm_color: "196",
+        name: "GitConfig",
       },
       ".gitignore": {
         icon: "",
-        color: "#41535b",
-        cterm_color: "59",
-        name: "GitIgnore"
+        color: "#f54d27",
+        cterm_color: "196",
+        name: "GitIgnore",
       },
       ".gitlab-ci.yml": {
         icon: "",
         color: "#e24329",
-        cterm_color: "166",
-        name: "GitlabCI"
+        cterm_color: "196",
+        name: "GitlabCI",
       },
       ".gitmodules": {
         icon: "",
-        color: "#41535b",
-        cterm_color: "59",
-        name: "GitModules"
+        color: "#f54d27",
+        cterm_color: "196",
+        name: "GitModules",
+      },
+      ".gtkrc-2.0": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "GTK",
       },
       ".gvimrc": {
         icon: "",
         color: "#019833",
-        cterm_color: "29",
-        name: "Gvimrc"
+        cterm_color: "28",
+        name: "Gvimrc",
+      },
+      ".justfile": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "Justfile",
+      },
+      ".luacheckrc": {
+        icon: "",
+        color: "#00a2ff",
+        cterm_color: "75",
+        name: "Luaurc",
+      },
+      ".luaurc": {
+        icon: "",
+        color: "#00a2ff",
+        cterm_color: "75",
+        name: "Luaurc",
+      },
+      ".mailmap": {
+        icon: "󰊢",
+        color: "#f54d27",
+        cterm_color: "196",
+        name: "Mailmap",
+      },
+      ".nanorc": {
+        icon: "",
+        color: "#440077",
+        cterm_color: "54",
+        name: "Nano",
       },
       ".npmignore": {
         icon: "",
         color: "#E8274B",
-        cterm_color: "161",
-        name: "NPMIgnore"
+        cterm_color: "197",
+        name: "NPMIgnore",
       },
       ".npmrc": {
         icon: "",
         color: "#E8274B",
-        cterm_color: "161",
-        name: "NPMrc"
+        cterm_color: "197",
+        name: "NPMrc",
+      },
+      ".nuxtrc": {
+        icon: "󱄆",
+        color: "#00c58e",
+        cterm_color: "42",
+        name: "NuxtConfig",
+      },
+      ".nvmrc": {
+        icon: "",
+        color: "#5FA04E",
+        cterm_color: "71",
+        name: "node",
+      },
+      ".pre-commit-config.yaml": {
+        icon: "󰛢",
+        color: "#F8B424",
+        cterm_color: "214",
+        name: "PreCommitConfig",
+      },
+      ".prettierrc": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierConfig",
+      },
+      ".prettierrc.cjs": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierConfig",
+      },
+      ".prettierrc.js": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierConfig",
+      },
+      ".prettierrc.json": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierConfig",
+      },
+      ".prettierrc.json5": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierConfig",
+      },
+      ".prettierrc.mjs": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierConfig",
+      },
+      ".prettierrc.toml": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierConfig",
+      },
+      ".prettierrc.yaml": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierConfig",
+      },
+      ".prettierrc.yml": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierConfig",
+      },
+      ".prettierignore": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierIgnore",
+      },
+      ".pylintrc": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "PyLintConfig",
       },
       ".settings.json": {
         icon: "",
         color: "#854CC7",
         cterm_color: "98",
-        name: "SettingsJson"
+        name: "SettingsJson",
+      },
+      ".SRCINFO": {
+        icon: "󰣇",
+        color: "#0f94d2",
+        cterm_color: "67",
+        name: "SRCINFO",
       },
       ".vimrc": {
         icon: "",
         color: "#019833",
-        cterm_color: "29",
-        name: "Vimrc"
+        cterm_color: "28",
+        name: "Vimrc",
+      },
+      ".Xauthority": {
+        icon: "",
+        color: "#e54d18",
+        cterm_color: "196",
+        name: "Xauthority",
+      },
+      ".xinitrc": {
+        icon: "",
+        color: "#e54d18",
+        cterm_color: "196",
+        name: "XInitrc",
+      },
+      ".Xresources": {
+        icon: "",
+        color: "#e54d18",
+        cterm_color: "196",
+        name: "Xresources",
+      },
+      ".xsession": {
+        icon: "",
+        color: "#e54d18",
+        cterm_color: "196",
+        name: "Xsession",
       },
       ".zprofile": {
         icon: "",
         color: "#89e051",
         cterm_color: "113",
-        name: "Zshprofile"
+        name: "Zshprofile",
       },
       ".zshenv": {
         icon: "",
         color: "#89e051",
         cterm_color: "113",
-        name: "Zshenv"
+        name: "Zshenv",
       },
       ".zshrc": {
         icon: "",
         color: "#89e051",
         cterm_color: "113",
-        name: "Zshrc"
-      },
-      "Brewfile": {
-        icon: "",
-        color: "#701516",
-        cterm_color: "52",
-        name: "Brewfile"
-      },
-      "CMakeLists.txt": {
-        icon: "",
-        color: "#6d8086",
-        cterm_color: "66",
-        name: "CMakeLists"
-      },
-      "COMMIT_EDITMSG": {
-        icon: "",
-        color: "#41535b",
-        cterm_color: "59",
-        name: "GitCommit"
-      },
-      "Containerfile": {
-        icon: "",
-        color: "#384d54",
-        cterm_color: "59",
-        name: "Dockerfile"
-      },
-      "COPYING": {
-        icon: "",
-        color: "#cbcb41",
-        cterm_color: "185",
-        name: "License"
-      },
-      "COPYING.LESSER": {
-        icon: "",
-        color: "#cbcb41",
-        cterm_color: "185",
-        name: "License"
-      },
-      "Dockerfile": {
-        icon: "",
-        color: "#384d54",
-        cterm_color: "59",
-        name: "Dockerfile"
-      },
-      "Gemfile$": {
-        icon: "",
-        color: "#701516",
-        cterm_color: "52",
-        name: "Gemfile"
-      },
-      "LICENSE": {
-        icon: "",
-        color: "#d0bf41",
-        cterm_color: "179",
-        name: "License"
-      },
-      "R": {
-        icon: "ﳒ",
-        color: "#358a5b",
-        cterm_color: "65",
-        name: "R"
-      },
-      "Rmd": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Rmd"
-      },
-      "Vagrantfile$": {
-        icon: "",
-        color: "#1563FF",
-        cterm_color: "27",
-        name: "Vagrantfile"
+        name: "Zshrc",
       },
       "_gvimrc": {
         icon: "",
         color: "#019833",
-        cterm_color: "29",
-        name: "Gvimrc"
+        cterm_color: "28",
+        name: "Gvimrc",
       },
       "_vimrc": {
         icon: "",
         color: "#019833",
-        cterm_color: "29",
-        name: "Vimrc"
+        cterm_color: "28",
+        name: "Vimrc",
       },
-      "ai": {
-        icon: "",
-        color: "#cbcb41",
-        cterm_color: "185",
-        name: "Ai"
+      "AUTHORS": {
+        icon: "",
+        color: "#A172FF",
+        cterm_color: "135",
+        name: "AUTHORS",
       },
-      "awk": {
-        icon: "",
-        color: "#4d5a5e",
-        cterm_color: "59",
-        name: "Awk"
+      "AUTHORS.txt": {
+        icon: "",
+        color: "#A172FF",
+        cterm_color: "135",
+        name: "AUTHORS",
       },
-      "bash": {
-        icon: "",
-        color: "#89e051",
-        cterm_color: "113",
-        name: "Bash"
-      },
-      "bat": {
-        icon: "",
-        color: "#C1F12E",
-        cterm_color: "154",
-        name: "Bat"
-      },
-      "bmp": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Bmp"
-      },
-      "c": {
-        icon: "",
-        color: "#599eff",
-        cterm_color: "75",
-        name: "C"
-      },
-      "c++": {
-        icon: "",
-        color: "#f34b7d",
-        cterm_color: "204",
-        name: "CPlusPlus"
-      },
-      "cbl": {
-        icon: "⚙",
-        color: "#005ca5",
-        cterm_color: "25",
-        name: "Cobol"
-      },
-      "cc": {
-        icon: "",
-        color: "#f34b7d",
-        cterm_color: "204",
-        name: "CPlusPlus"
-      },
-      "cfg": {
-        icon: "",
-        color: "#ECECEC",
-        cterm_color: "231",
-        name: "Configuration"
-      },
-      "clj": {
-        icon: "",
-        color: "#8dc149",
-        cterm_color: "107",
-        name: "Clojure"
-      },
-      "cljc": {
-        icon: "",
-        color: "#8dc149",
-        cterm_color: "107",
-        name: "ClojureC"
-      },
-      "cljs": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "ClojureJS"
-      },
-      "cljd": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "ClojureDart"
-      },
-      "cmake": {
-        icon: "",
-        color: "#6d8086",
-        cterm_color: "66",
-        name: "CMake"
-      },
-      "cob": {
-        icon: "⚙",
-        color: "#005ca5",
-        cterm_color: "25",
-        name: "Cobol"
-      },
-      "cobol": {
-        icon: "⚙",
-        color: "#005ca5",
-        cterm_color: "25",
-        name: "Cobol"
-      },
-      "coffee": {
-        icon: "",
-        color: "#cbcb41",
-        cterm_color: "185",
-        name: "Coffee"
-      },
-      "conf": {
-        icon: "",
-        color: "#6d8086",
-        cterm_color: "66",
-        name: "Conf"
-      },
-      "config.ru": {
+      "brewfile": {
         icon: "",
         color: "#701516",
         cterm_color: "52",
-        name: "ConfigRu"
+        name: "Brewfile",
       },
-      "cp": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Cp"
+      "bspwmrc": {
+        icon: "",
+        color: "#2f2f2f",
+        cterm_color: "236",
+        name: "BSPWM",
       },
-      "cpp": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Cpp"
-      },
-      "cpy": {
-        icon: "⚙",
-        color: "#005ca5",
-        cterm_color: "25",
-        name: "Cobol"
-      },
-      "cr": {
-        icon: "",
-        color: "#000000",
-        cterm_color: "16",
-        name: "Crystal"
-      },
-      "cs": {
-        icon: "",
-        color: "#596706",
-        cterm_color: "58",
-        name: "Cs"
-      },
-      "csh": {
-        icon: "",
-        color: "#4d5a5e",
-        cterm_color: "59",
-        name: "Csh"
-      },
-      "cson": {
-        icon: "",
-        color: "#cbcb41",
-        cterm_color: "185",
-        name: "Cson"
-      },
-      "css": {
-        icon: "",
-        color: "#42a5f5",
-        cterm_color: "39",
-        name: "Css"
-      },
-      "csv": {
-        icon: "",
+      "build": {
+        icon: "",
         color: "#89e051",
         cterm_color: "113",
-        name: "Csv"
+        name: "BazelBuild",
       },
-      "cxx": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Cxx"
+      "build.gradle": {
+        icon: "",
+        color: "#005f87",
+        cterm_color: "24",
+        name: "GradleBuildScript",
       },
-      "d": {
-        icon: "",
-        color: "#427819",
-        cterm_color: "64",
-        name: "D"
+      "build.zig.zon": {
+        icon: "",
+        color: "#f69a1b",
+        cterm_color: "172",
+        name: "ZigObjectNotation",
       },
-      "dart": {
-        icon: "",
-        color: "#03589C",
-        cterm_color: "25",
-        name: "Dart"
+      "bun.lockb": {
+        icon: "",
+        color: "#eadcd1",
+        cterm_color: "253",
+        name: "BunLockfile",
       },
-      "db": {
-        icon: "",
-        color: "#dad8d8",
-        cterm_color: "188",
-        name: "Db"
+      "checkhealth": {
+        icon: "󰓙",
+        color: "#75B4FB",
+        cterm_color: "75",
+        name: "Checkhealth",
       },
-      "desktop": {
-        icon: "",
-        color: "#563d7c",
-        cterm_color: "60",
-        name: "DesktopEntry"
+      "cmakelists.txt": {
+        icon: "",
+        color: "#dce3eb",
+        cterm_color: "254",
+        name: "CMakeLists",
       },
-      "diff": {
-        icon: "",
-        color: "#41535b",
-        cterm_color: "59",
-        name: "Diff"
+      "code_of_conduct": {
+        icon: "",
+        color: "#E41662",
+        cterm_color: "161",
+        name: "CodeOfConduct",
       },
-      "doc": {
-        icon: "",
-        color: "#185abd",
-        cterm_color: "25",
-        name: "Doc"
+      "code_of_conduct.md": {
+        icon: "",
+        color: "#E41662",
+        cterm_color: "161",
+        name: "CodeOfConduct",
       },
-      "dockerfile": {
-        icon: "",
-        color: "#384d54",
-        cterm_color: "59",
-        name: "Dockerfile"
+      "commit_editmsg": {
+        icon: "",
+        color: "#f54d27",
+        cterm_color: "196",
+        name: "GitCommit",
       },
-      "drl": {
-        icon: "",
-        color: "#ffafaf",
-        cterm_color: "217",
-        name: "Drools"
+      "commitlint.config.js": {
+        icon: "󰜘",
+        color: "#2b9689",
+        cterm_color: "30",
+        name: "CommitlintConfig",
       },
-      "dropbox": {
-        icon: "",
-        color: "#0061FE",
-        cterm_color: "27",
-        name: "Dropbox"
+      "commitlint.config.ts": {
+        icon: "󰜘",
+        color: "#2b9689",
+        cterm_color: "30",
+        name: "CommitlintConfig",
       },
-      "dump": {
-        icon: "",
-        color: "#dad8d8",
-        cterm_color: "188",
-        name: "Dump"
+      "compose.yaml": {
+        icon: "󰡨",
+        color: "#458ee6",
+        cterm_color: "68",
+        name: "Dockerfile",
       },
-      "edn": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Edn"
+      "compose.yml": {
+        icon: "󰡨",
+        color: "#458ee6",
+        cterm_color: "68",
+        name: "Dockerfile",
       },
-      "eex": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Eex"
+      "config": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "Config",
       },
-      "ejs": {
-        icon: "",
+      "containerfile": {
+        icon: "󰡨",
+        color: "#458ee6",
+        cterm_color: "68",
+        name: "Dockerfile",
+      },
+      "copying": {
+        icon: "",
         color: "#cbcb41",
         cterm_color: "185",
-        name: "Ejs"
+        name: "License",
       },
-      "elm": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Elm"
+      "copying.lesser": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "License",
       },
-      "epp": {
-        icon: "",
-        color: "#FFA61A",
-        cterm_color: "white",
-        name: "Epp"
+      "docker-compose.yaml": {
+        icon: "󰡨",
+        color: "#458ee6",
+        cterm_color: "68",
+        name: "Dockerfile",
       },
-      "erb": {
-        icon: "",
-        color: "#701516",
-        cterm_color: "52",
-        name: "Erb"
+      "docker-compose.yml": {
+        icon: "󰡨",
+        color: "#458ee6",
+        cterm_color: "68",
+        name: "Dockerfile",
       },
-      "erl": {
-        icon: "",
-        color: "#B83998",
-        cterm_color: "132",
-        name: "Erl"
+      "dockerfile": {
+        icon: "󰡨",
+        color: "#458ee6",
+        cterm_color: "68",
+        name: "Dockerfile",
       },
-      "ex": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Ex"
+      "Directory.Packages.props": {
+        icon: "",
+        color: "#00a2ff",
+        cterm_color: "75",
+        name: "PackagesProps",
       },
-      "exs": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Exs"
+      "Directory.Build.targets": {
+        icon: "",
+        color: "#00a2ff",
+        cterm_color: "75",
+        name: "BuildTargets",
       },
-      "f#": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Fsharp"
+      "Directory.Build.props": {
+        icon: "",
+        color: "#00a2ff",
+        cterm_color: "75",
+        name: "BuildProps",
+      },
+      "eslint.config.cjs": {
+        icon: "",
+        color: "#4b32c3",
+        cterm_color: "56",
+        name: "Eslintrc",
+      },
+      "eslint.config.js": {
+        icon: "",
+        color: "#4b32c3",
+        cterm_color: "56",
+        name: "Eslintrc",
+      },
+      "eslint.config.mjs": {
+        icon: "",
+        color: "#4b32c3",
+        cterm_color: "56",
+        name: "Eslintrc",
+      },
+      "eslint.config.ts": {
+        icon: "",
+        color: "#4b32c3",
+        cterm_color: "56",
+        name: "Eslintrc",
+      },
+      "ext_typoscript_setup.txt": {
+        icon: "",
+        color: "#FF8700",
+        cterm_color: "208",
+        name: "TypoScriptSetup",
       },
       "favicon.ico": {
         icon: "",
         color: "#cbcb41",
         cterm_color: "185",
-        name: "Favicon"
+        name: "Favicon",
       },
-      "fnl": {
-        color: "#fff3d7",
-        icon: "🌜",
-        cterm_color: "230",
-        name: "Fennel"
+      "fp-info-cache": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "KiCadCache",
       },
-      "fish": {
-        icon: "",
-        color: "#4d5a5e",
-        cterm_color: "59",
-        name: "Fish"
+      "fp-lib-table": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "KiCadFootprintTable",
       },
-      "fs": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Fs"
+      "FreeCAD.conf": {
+        icon: "",
+        color: "#CB333B",
+        cterm_color: "160",
+        name: "FreeCADConfig",
       },
-      "fsi": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Fsi"
-      },
-      "fsscript": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Fsscript"
-      },
-      "fsx": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Fsx"
-      },
-      "gd": {
-        icon: "",
-        color: "#6d8086",
-        cterm_color: "66",
-        name: "GDScript"
-      },
-      "gemspec": {
+      "Gemfile": {
         icon: "",
         color: "#701516",
         cterm_color: "52",
-        name: "Gemspec"
+        name: "Gemfile",
       },
-      "gif": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Gif"
-      },
-      "git": {
-        icon: "",
-        color: "#F14C28",
-        cterm_color: "202",
-        name: "GitLogo"
-      },
-      "glb": {
-        icon: "",
-        color: "#FFB13B",
-        cterm_color: "215",
-        name: "BinaryGLTF"
-      },
-      "go": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Go"
-      },
-      "godot": {
-        icon: "",
+      "gnumakefile": {
+        icon: "",
         color: "#6d8086",
         cterm_color: "66",
-        name: "GodotProject"
+        name: "Makefile",
       },
-      "graphql": {
-        icon: "",
-        color: "#e535ab",
-        cterm_color: "199",
-        name: "GraphQL"
+      "go.mod": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "GoMod",
       },
-      "gql": {
-        icon: "",
-        color: "#e535ab",
-        cterm_color: "199",
-        name: "GraphQL"
+      "go.sum": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "GoSum",
       },
-      "gruntfile": {
+      "go.work": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "GoWork",
+      },
+      "gradlew": {
+        icon: "",
+        color: "#005f87",
+        cterm_color: "24",
+        name: "GradleWrapperScript",
+      },
+      "gradle.properties": {
+        icon: "",
+        color: "#005f87",
+        cterm_color: "24",
+        name: "GradleProperties",
+      },
+      "gradle-wrapper.properties": {
+        icon: "",
+        color: "#005f87",
+        cterm_color: "24",
+        name: "GradleWrapperProperties",
+      },
+      "groovy": {
+        icon: "",
+        color: "#4a687c",
+        cterm_color: "24",
+        name: "Groovy",
+      },
+      "gruntfile.babel.js": {
         icon: "",
         color: "#e37933",
-        cterm_color: "173",
-        name: "Gruntfile"
+        cterm_color: "166",
+        name: "Gruntfile",
       },
-      "gulpfile": {
+      "gruntfile.coffee": {
+        icon: "",
+        color: "#e37933",
+        cterm_color: "166",
+        name: "Gruntfile",
+      },
+      "gruntfile.js": {
+        icon: "",
+        color: "#e37933",
+        cterm_color: "166",
+        name: "Gruntfile",
+      },
+      "gruntfile.ts": {
+        icon: "",
+        color: "#e37933",
+        cterm_color: "166",
+        name: "Gruntfile",
+      },
+      "gtkrc": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "GTK",
+      },
+      "gulpfile.babel.js": {
         icon: "",
         color: "#cc3e44",
         cterm_color: "167",
-        name: "Gulpfile"
+        name: "Gulpfile",
       },
-      "h": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "H"
-      },
-      "haml": {
-        icon: "",
-        color: "#eaeae1",
-        cterm_color: "188",
-        name: "Haml"
-      },
-      "hbs": {
-        icon: "",
-        color: "#f0772b",
-        cterm_color: "208",
-        name: "Hbs"
-      },
-      "heex": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Heex"
-      },
-      "hh": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Hh"
-      },
-      "hpp": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Hpp"
-      },
-      "hrl": {
-        icon: "",
-        color: "#B83998",
-        cterm_color: "132",
-        name: "Hrl"
-      },
-      "hs": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Hs"
-      },
-      "htm": {
-        icon: "",
-        color: "#e34c26",
-        cterm_color: "166",
-        name: "Htm"
-      },
-      "html": {
-        icon: "",
-        color: "#e44d26",
-        cterm_color: "202",
-        name: "Html"
-      },
-      "hxx": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Hxx"
-      },
-      "ico": {
-        icon: "",
-        color: "#cbcb41",
-        cterm_color: "185",
-        name: "Ico"
-      },
-      "import": {
-        icon: "",
-        color: "#ECECEC",
-        cterm_color: "231",
-        name: "ImportConfiguration"
-      },
-      "ini": {
-        icon: "",
-        color: "#6d8086",
-        cterm_color: "66",
-        name: "Ini"
-      },
-      "java": {
-        icon: "",
+      "gulpfile.coffee": {
+        icon: "",
         color: "#cc3e44",
         cterm_color: "167",
-        name: "Java"
+        name: "Gulpfile",
       },
-      "jl": {
-        icon: "",
-        color: "#a270ba",
-        cterm_color: "133",
-        name: "Jl"
+      "gulpfile.js": {
+        icon: "",
+        color: "#cc3e44",
+        cterm_color: "167",
+        name: "Gulpfile",
       },
-      "jpeg": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Jpeg"
+      "gulpfile.ts": {
+        icon: "",
+        color: "#cc3e44",
+        cterm_color: "167",
+        name: "Gulpfile",
       },
-      "jpg": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Jpg"
+      "hypridle.conf": {
+        icon: "",
+        color: "#00aaae",
+        cterm_color: "37",
+        name: "Hypridle",
       },
-      "js": {
-        icon: "",
-        color: "#cbcb41",
-        cterm_color: "185",
-        name: "Js"
+      "hyprland.conf": {
+        icon: "",
+        color: "#00aaae",
+        cterm_color: "37",
+        name: "Hyprland",
       },
-      "test.js": {
-        icon: "",
-        color: "#e37933",
-        cterm_color: "173",
-        name: "TestJs"
+      "hyprlock.conf": {
+        icon: "",
+        color: "#00aaae",
+        cterm_color: "37",
+        name: "Hyprlock",
       },
-      "json": {
-        icon: "",
-        color: "#cbcb41",
-        cterm_color: "185",
-        name: "Json"
+      "hyprpaper.conf": {
+        icon: "",
+        color: "#00aaae",
+        cterm_color: "37",
+        name: "Hyprpaper",
       },
-      "json5": {
-        icon: "ﬥ",
-        color: "#cbcb41",
-        cterm_color: "185",
-        name: "Json5"
+      "i18n.config.js": {
+        icon: "󰗊",
+        color: "#7986cb",
+        cterm_color: "104",
+        name: "I18nConfig",
       },
-      "jsx": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Jsx"
+      "i18n.config.ts": {
+        icon: "󰗊",
+        color: "#7986cb",
+        cterm_color: "104",
+        name: "I18nConfig",
       },
-      "ksh": {
-        icon: "",
-        color: "#4d5a5e",
-        cterm_color: "59",
-        name: "Ksh"
+      "i3blocks.conf": {
+        icon: "",
+        color: "#e8ebee",
+        cterm_color: "255",
+        name: "i3",
       },
-      "kt": {
-        icon: "",
-        color: "#7F52FF",
-        cterm_color: "99",
-        name: "Kotlin"
+      "i3status.conf": {
+        icon: "",
+        color: "#e8ebee",
+        cterm_color: "255",
+        name: "i3",
       },
-      "kts": {
-        icon: "",
-        color: "#7F52FF",
-        cterm_color: "99",
-        name: "KotlinScript"
+      "index.theme": {
+        icon: "",
+        color: "#2DB96F",
+        cterm_color: "35",
+        name: "IndexTheme",
       },
-      "leex": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Leex"
+      "ionic.config.json": {
+        icon: "",
+        color: "#4f8ff7",
+        cterm_color: "33",
+        name: "Ionic",
       },
-      "less": {
-        icon: "",
-        color: "#563d7c",
-        cterm_color: "60",
-        name: "Less"
+      "cantorrc": {
+        icon: "",
+        color: "#1c99f3",
+        cterm_color: "32",
+        name: "Cantorrc",
       },
-      "lhs": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Lhs"
+      "justfile": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "Justfile",
+      },
+      "kalgebrarc": {
+        icon: "",
+        color: "#1c99f3",
+        cterm_color: "32",
+        name: "Kalgebrarc",
+      },
+      "kdeglobals": {
+        icon: "",
+        color: "#1c99f3",
+        cterm_color: "32",
+        name: "KDEglobals",
+      },
+      "kdenlive-layoutsrc": {
+        icon: "",
+        color: "#83b8f2",
+        cterm_color: "110",
+        name: "KdenliveLayoutsrc",
+      },
+      "kdenliverc": {
+        icon: "",
+        color: "#83b8f2",
+        cterm_color: "110",
+        name: "Kdenliverc",
+      },
+      "kritadisplayrc": {
+        icon: "",
+        color: "#f245fb",
+        cterm_color: "201",
+        name: "Kritadisplayrc",
+      },
+      "kritarc": {
+        icon: "",
+        color: "#f245fb",
+        cterm_color: "201",
+        name: "Kritarc",
       },
       "license": {
         icon: "",
-        color: "#cbcb41",
+        color: "#d0bf41",
         cterm_color: "185",
-        name: "License"
+        name: "License",
       },
-      "lua": {
-        icon: "",
-        color: "#51a0cf",
-        cterm_color: "74",
-        name: "Lua"
+      "license.md": {
+        icon: "",
+        color: "#d0bf41",
+        cterm_color: "185",
+        name: "License",
       },
-      "luau": {
-        icon: "",
-        color: "#51a0cf",
-        cterm_color: "74",
-        name: "Luau"
+      "lxde-rc.xml": {
+        icon: "",
+        color: "#909090",
+        cterm_color: "246",
+        name: "LXDEConfigFile",
+      },
+      "lxqt.conf": {
+        icon: "",
+        color: "#0192d3",
+        cterm_color: "32",
+        name: "LXQtConfigFile",
       },
       "makefile": {
-        icon: "",
+        icon: "",
         color: "#6d8086",
         cterm_color: "66",
-        name: "Makefile"
-      },
-      "markdown": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Markdown"
-      },
-      "material": {
-        icon: "",
-        color: "#B83998",
-        cterm_color: "132",
-        name: "Material"
-      },
-      "md": {
-        icon: "",
-        color: "#ffffff",
-        cterm_color: "white",
-        name: "Md"
-      },
-      "mdx": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Mdx"
-      },
-      "mint": {
-        icon: "",
-        color: "#87c095",
-        cterm_color: "108",
-        name: "Mint"
+        name: "Makefile",
       },
       "mix.lock": {
         icon: "",
         color: "#a074c4",
         cterm_color: "140",
-        name: "MixLock"
+        name: "MixLock",
       },
-      "mjs": {
-        icon: "",
-        color: "#f1e05a",
-        cterm_color: "221",
-        name: "Mjs"
-      },
-      "ml": {
-        icon: "λ",
-        color: "#e37933",
-        cterm_color: "173",
-        name: "Ml"
-      },
-      "mli": {
-        icon: "λ",
-        color: "#e37933",
-        cterm_color: "173",
-        name: "Mli"
-      },
-      "mo": {
-        icon: "∞",
-        color: "#9772FB",
-        cterm_color: "99",
-        name: "Motoko"
-      },
-      "mustache": {
-        icon: "",
-        color: "#e37933",
-        cterm_color: "173",
-        name: "Mustache"
-      },
-      "nim": {
-        icon: "👑",
-        color: "#f3d400",
-        cterm_color: "220",
-        name: "Nim"
-      },
-      "nix": {
-        icon: "",
-        color: "#7ebae4",
-        cterm_color: "110",
-        name: "Nix"
+      "mpv.conf": {
+        icon: "",
+        color: "#3b1342",
+        cterm_color: "53",
+        name: "Mpv",
       },
       "node_modules": {
         icon: "",
         color: "#E8274B",
-        cterm_color: "161",
-        name: "NodeModules"
+        cterm_color: "197",
+        name: "NodeModules",
       },
-      "opus": {
-        icon: "",
-        color: "#F88A02",
-        cterm_color: "208",
-        name: "OPUS"
+      "nuxt.config.cjs": {
+        icon: "󱄆",
+        color: "#00c58e",
+        cterm_color: "42",
+        name: "NuxtConfig",
       },
-      "otf": {
-        icon: "",
-        color: "#ECECEC",
-        cterm_color: "231",
-        name: "OpenTypeFont"
+      "nuxt.config.js": {
+        icon: "󱄆",
+        color: "#00c58e",
+        cterm_color: "42",
+        name: "NuxtConfig",
+      },
+      "nuxt.config.mjs": {
+        icon: "󱄆",
+        color: "#00c58e",
+        cterm_color: "42",
+        name: "NuxtConfig",
+      },
+      "nuxt.config.ts": {
+        icon: "󱄆",
+        color: "#00c58e",
+        cterm_color: "42",
+        name: "NuxtConfig",
       },
       "package.json": {
         icon: "",
         color: "#e8274b",
-        cterm_color: "white",
-        name: "PackageJson"
+        cterm_color: "197",
+        name: "PackageJson",
       },
       "package-lock.json": {
         icon: "",
         color: "#7a0d21",
-        cterm_color: "white",
-        name: "PackageLockJson"
+        cterm_color: "52",
+        name: "PackageLockJson",
       },
-      "pck": {
-        icon: "",
-        color: "#6d8086",
-        cterm_color: "66",
-        name: "PackedResource"
-      },
-      "pdf": {
-        icon: "",
-        color: "#b30b00",
-        cterm_color: "124",
-        name: "Pdf"
-      },
-      "php": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Php"
-      },
-      "pl": {
-        icon: "",
-        color: "#519aba",
+      "PKGBUILD": {
+        icon: "",
+        color: "#0f94d2",
         cterm_color: "67",
-        name: "Pl"
+        name: "PKGBUILD",
       },
-      "pm": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Pm"
+      "platformio.ini": {
+        icon: "",
+        color: "#f6822b",
+        cterm_color: "208",
+        name: "Platformio",
       },
-      "png": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "Png"
+      "pom.xml": {
+        icon: "",
+        color: "#7a0d21",
+        cterm_color: "52",
+        name: "Maven",
       },
-      "pp": {
-        icon: "",
-        color: "#FFA61A",
-        cterm_color: "white",
-        name: "Pp"
+      "prettier.config.js": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierConfig",
       },
-      "ppt": {
-        icon: "",
-        color: "#cb4a32",
-        cterm_color: "167",
-        name: "Ppt"
+      "prettier.config.cjs": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierConfig",
       },
-      "pro": {
-        icon: "",
-        color: "#e4b854",
-        cterm_color: "179",
-        name: "Prolog"
+      "prettier.config.mjs": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierConfig",
       },
-      "Procfile": {
+      "prettier.config.ts": {
+        icon: "",
+        color: "#4285F4",
+        cterm_color: "33",
+        name: "PrettierConfig",
+      },
+      "procfile": {
         icon: "",
         color: "#a074c4",
         cterm_color: "140",
-        name: "Procfile"
+        name: "Procfile",
       },
-      "ps1": {
-        icon: "󰨊",
-        color: "#4273ca",
-        cterm_color: "69",
-        name: "PsScriptfile"
+      "PrusaSlicer.ini": {
+        icon: "",
+        color: "#ec6b23",
+        cterm_color: "202",
+        name: "PrusaSlicer",
       },
-      "psd1": {
-        icon: "󰨊",
-        color: "#6975c4",
-        cterm_color: "105",
-        name: "PsManifestfile"
+      "PrusaSlicerGcodeViewer.ini": {
+        icon: "",
+        color: "#ec6b23",
+        cterm_color: "202",
+        name: "PrusaSlicer",
       },
-      "psm1": {
-        icon: "󰨊",
-        color: "#6975c4",
-        cterm_color: "105",
-        name: "PsScriptModulefile"
-      },
-      "psb": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Psb"
-      },
-      "psd": {
-        icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Psd"
-      },
-      "py": {
+      "py.typed": {
         icon: "",
         color: "#ffbc03",
-        cterm_color: "61",
-        name: "Py"
+        cterm_color: "214",
+        name: "Py.typed",
       },
-      "pyc": {
-        icon: "",
-        color: "#ffe291",
-        cterm_color: "67",
-        name: "Pyc"
-      },
-      "pyd": {
-        icon: "",
-        color: "#ffe291",
-        cterm_color: "67",
-        name: "Pyd"
-      },
-      "pyo": {
-        icon: "",
-        color: "#ffe291",
-        cterm_color: "67",
-        name: "Pyo"
-      },
-      "query": {
-        icon: "",
-        color: "#90a850",
-        cterm_color: "154",
-        name: "Query"
-      },
-      "r": {
-        icon: "ﳒ",
-        color: "#358a5b",
-        cterm_color: "65",
-        name: "R"
-      },
-      "rake": {
-        icon: "",
-        color: "#701516",
-        cterm_color: "52",
-        name: "Rake"
+      "QtProject.conf": {
+        icon: "",
+        color: "#40cd52",
+        cterm_color: "77",
+        name: "Qt",
       },
       "rakefile": {
         icon: "",
         color: "#701516",
         cterm_color: "52",
-        name: "Rakefile"
+        name: "Rakefile",
+      },
+      "readme": {
+        icon: "󰂺",
+        color: "#ededed",
+        cterm_color: "255",
+        name: "Readme",
+      },
+      "readme.md": {
+        icon: "󰂺",
+        color: "#ededed",
+        cterm_color: "255",
+        name: "Readme",
+      },
+      "rmd": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Rmd",
+      },
+      "robots.txt": {
+        icon: "󰚩",
+        color: "#5d7096",
+        cterm_color: "60",
+        name: "RobotsTxt",
+      },
+      "security": {
+        icon: "󰒃",
+        color: "#BEC4C9",
+        cterm_color: "251",
+        name: "Security",
+      },
+      "security.md": {
+        icon: "󰒃",
+        color: "#BEC4C9",
+        cterm_color: "251",
+        name: "Security",
+      },
+      "settings.gradle": {
+        icon: "",
+        color: "#005f87",
+        cterm_color: "24",
+        name: "GradleSettings",
+      },
+      "svelte.config.js": {
+        icon: "",
+        color: "#ff3e00",
+        cterm_color: "196",
+        name: "SvelteConfig",
+      },
+      "sxhkdrc": {
+        icon: "",
+        color: "#2f2f2f",
+        cterm_color: "236",
+        name: "BSPWM",
+      },
+      "sym-lib-table": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "KiCadSymbolTable",
+      },
+      "tailwind.config.js": {
+        icon: "󱏿",
+        color: "#20c2e3",
+        cterm_color: "45",
+        name: "TailwindConfig",
+      },
+      "tailwind.config.mjs": {
+        icon: "󱏿",
+        color: "#20c2e3",
+        cterm_color: "45",
+        name: "TailwindConfig",
+      },
+      "tailwind.config.ts": {
+        icon: "󱏿",
+        color: "#20c2e3",
+        cterm_color: "45",
+        name: "TailwindConfig",
+      },
+      "tmux.conf": {
+        icon: "",
+        color: "#14ba19",
+        cterm_color: "34",
+        name: "Tmux",
+      },
+      "tmux.conf.local": {
+        icon: "",
+        color: "#14ba19",
+        cterm_color: "34",
+        name: "Tmux",
+      },
+      "tsconfig.json": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "TSConfig",
+      },
+      "unlicense": {
+        icon: "",
+        color: "#d0bf41",
+        cterm_color: "185",
+        name: "License",
+      },
+      "vagrantfile": {
+        icon: "",
+        color: "#1563FF",
+        cterm_color: "27",
+        name: "Vagrantfile",
+      },
+      "vlcrc": {
+        icon: "󰕼",
+        color: "#ee7a00",
+        cterm_color: "208",
+        name: "VLC",
+      },
+      "vercel.json": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "Vercel",
+      },
+      "webpack": {
+        icon: "󰜫",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Webpack",
+      },
+      "weston.ini": {
+        icon: "",
+        color: "#ffbb01",
+        cterm_color: "214",
+        name: "Weston",
+      },
+      "workspace": {
+        icon: "",
+        color: "#89e051",
+        cterm_color: "113",
+        name: "BazelWorkspace",
+      },
+      "xmobarrc": {
+        icon: "",
+        color: "#fd4d5d",
+        cterm_color: "203",
+        name: "xmonad",
+      },
+      "xmobarrc.hs": {
+        icon: "",
+        color: "#fd4d5d",
+        cterm_color: "203",
+        name: "xmonad",
+      },
+      "xmonad.hs": {
+        icon: "",
+        color: "#fd4d5d",
+        cterm_color: "203",
+        name: "xmonad",
+      },
+      "xorg.conf": {
+        icon: "",
+        color: "#e54d18",
+        cterm_color: "196",
+        name: "XorgConf",
+      },
+      "xsettingsd.conf": {
+        icon: "",
+        color: "#e54d18",
+        cterm_color: "196",
+        name: "XSettingsdConf",
+      },
+      "3gp": {
+        icon: "",
+        color: "#FD971F",
+        cterm_color: "208",
+        name: "3gp",
+      },
+      "3mf": {
+        icon: "󰆧",
+        color: "#888888",
+        cterm_color: "102",
+        name: "3DObjectFile",
+      },
+      "7z": {
+        icon: "",
+        color: "#eca517",
+        cterm_color: "214",
+        name: "7z",
+      },
+      "a": {
+        icon: "",
+        color: "#dcddd6",
+        cterm_color: "253",
+        name: "StaticLibraryArchive",
+      },
+      "aac": {
+        icon: "",
+        color: "#00afff",
+        cterm_color: "39",
+        name: "AdvancedAudioCoding",
+      },
+      "adb": {
+        icon: "",
+        color: "#22ffff",
+        cterm_color: "51",
+        name: "AdaBody",
+      },
+      "ads": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "AdaSpecification",
+      },
+      "aif": {
+        icon: "",
+        color: "#00afff",
+        cterm_color: "39",
+        name: "AudioInterchangeFileFormat",
+      },
+      "aiff": {
+        icon: "",
+        color: "#00afff",
+        cterm_color: "39",
+        name: "AudioInterchangeFileFormat",
+      },
+      "ape": {
+        icon: "",
+        color: "#00afff",
+        cterm_color: "39",
+        name: "MonkeysAudio",
+      },
+      "apl": {
+        icon: "",
+        color: "#24a148",
+        cterm_color: "35",
+        name: "APL",
+      },
+      "ai": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "Ai",
+      },
+      "android": {
+        icon: "",
+        color: "#34a853",
+        cterm_color: "35",
+        name: "Android",
+      },
+      "apk": {
+        icon: "",
+        color: "#34a853",
+        cterm_color: "35",
+        name: "apk",
+      },
+      "app": {
+        icon: "",
+        color: "#9F0500",
+        cterm_color: "124",
+        name: "App",
+      },
+      "applescript": {
+        icon: "",
+        color: "#6d8085",
+        cterm_color: "66",
+        name: "AppleScript",
+      },
+      "asc": {
+        icon: "󰦝",
+        color: "#576d7f",
+        cterm_color: "242",
+        name: "Asc",
+      },
+      "asm": {
+        icon: "",
+        color: "#0091BD",
+        cterm_color: "31",
+        name: "ASM",
+      },
+      "ass": {
+        icon: "󰨖",
+        color: "#ffb713",
+        cterm_color: "214",
+        name: "Ass",
+      },
+      "astro": {
+        icon: "",
+        color: "#e23f67",
+        cterm_color: "197",
+        name: "Astro",
+      },
+      "avif": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Avif",
+      },
+      "awk": {
+        icon: "",
+        color: "#4d5a5e",
+        cterm_color: "240",
+        name: "Awk",
+      },
+      "azcli": {
+        icon: "",
+        color: "#0078d4",
+        cterm_color: "32",
+        name: "AzureCli",
+      },
+      "bak": {
+        icon: "󰁯",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "Backup",
+      },
+      "bash": {
+        icon: "",
+        color: "#89e051",
+        cterm_color: "113",
+        name: "Bash",
+      },
+      "bat": {
+        icon: "",
+        color: "#C1F12E",
+        cterm_color: "191",
+        name: "Bat",
+      },
+      "bazel": {
+        icon: "",
+        color: "#89e051",
+        cterm_color: "113",
+        name: "Bazel",
+      },
+      "bib": {
+        icon: "󱉟",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "BibTeX",
+      },
+      "bicep": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Bicep",
+      },
+      "bicepparam": {
+        icon: "",
+        color: "#9f74b3",
+        cterm_color: "133",
+        name: "BicepParameters",
+      },
+      "bin": {
+        icon: "",
+        color: "#9F0500",
+        cterm_color: "124",
+        name: "Bin",
+      },
+      "blade.php": {
+        icon: "",
+        color: "#f05340",
+        cterm_color: "203",
+        name: "Blade",
+      },
+      "blend": {
+        icon: "󰂫",
+        color: "#ea7600",
+        cterm_color: "208",
+        name: "Blender",
+      },
+      "bmp": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Bmp",
+      },
+      "bqn": {
+        icon: "",
+        color: "#24a148",
+        cterm_color: "35",
+        name: "APL",
+      },
+      "blp": {
+        icon: "󰺾",
+        color: "#5796E2",
+        cterm_color: "68",
+        name: "Blueprint",
+      },
+      "brep": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "BoundaryRepresentation",
+      },
+      "bz": {
+        icon: "",
+        color: "#eca517",
+        cterm_color: "214",
+        name: "Bz",
+      },
+      "bz2": {
+        icon: "",
+        color: "#eca517",
+        cterm_color: "214",
+        name: "Bz2",
+      },
+      "bz3": {
+        icon: "",
+        color: "#eca517",
+        cterm_color: "214",
+        name: "Bz3",
+      },
+      "bzl": {
+        icon: "",
+        color: "#89e051",
+        cterm_color: "113",
+        name: "Bzl",
+      },
+      "c": {
+        icon: "",
+        color: "#599eff",
+        cterm_color: "111",
+        name: "C",
+      },
+      "c++": {
+        icon: "",
+        color: "#f34b7d",
+        cterm_color: "204",
+        name: "CPlusPlus",
+      },
+      "cache": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "Cache",
+      },
+      "cast": {
+        icon: "",
+        color: "#FD971F",
+        cterm_color: "208",
+        name: "Asciinema",
+      },
+      "cbl": {
+        icon: "",
+        color: "#005ca5",
+        cterm_color: "25",
+        name: "Cobol",
+      },
+      "cc": {
+        icon: "",
+        color: "#f34b7d",
+        cterm_color: "204",
+        name: "CPlusPlus",
+      },
+      "ccm": {
+        icon: "",
+        color: "#f34b7d",
+        cterm_color: "204",
+        name: "CPlusPlusModule",
+      },
+      "cfg": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "Configuration",
+      },
+      "cjs": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "Cjs",
+      },
+      "clj": {
+        icon: "",
+        color: "#8dc149",
+        cterm_color: "113",
+        name: "Clojure",
+      },
+      "cljc": {
+        icon: "",
+        color: "#8dc149",
+        cterm_color: "113",
+        name: "ClojureC",
+      },
+      "cljs": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "ClojureJS",
+      },
+      "cljd": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "ClojureDart",
+      },
+      "cmake": {
+        icon: "",
+        color: "#dce3eb",
+        cterm_color: "254",
+        name: "CMake",
+      },
+      "cob": {
+        icon: "",
+        color: "#005ca5",
+        cterm_color: "25",
+        name: "Cobol",
+      },
+      "cobol": {
+        icon: "",
+        color: "#005ca5",
+        cterm_color: "25",
+        name: "Cobol",
+      },
+      "coffee": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "Coffee",
+      },
+      "conda": {
+        icon: "",
+        color: "#43b02a",
+        cterm_color: "34",
+        name: "Conda",
+      },
+      "conf": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "Conf",
+      },
+      "config.ru": {
+        icon: "",
+        color: "#701516",
+        cterm_color: "52",
+        name: "ConfigRu",
+      },
+      "cow": {
+        icon: "󰆚",
+        color: "#965824",
+        cterm_color: "130",
+        name: "CowsayFile",
+      },
+      "cp": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Cp",
+      },
+      "cpp": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Cpp",
+      },
+      "cppm": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Cppm",
+      },
+      "cpy": {
+        icon: "",
+        color: "#005ca5",
+        cterm_color: "25",
+        name: "Cobol",
+      },
+      "cr": {
+        icon: "",
+        color: "#c8c8c8",
+        cterm_color: "251",
+        name: "Crystal",
+      },
+      "crdownload": {
+        icon: "",
+        color: "#44cda8",
+        cterm_color: "43",
+        name: "Crdownload",
+      },
+      "cs": {
+        icon: "󰌛",
+        color: "#596706",
+        cterm_color: "58",
+        name: "Cs",
+      },
+      "csh": {
+        icon: "",
+        color: "#4d5a5e",
+        cterm_color: "240",
+        name: "Csh",
+      },
+      "cshtml": {
+        icon: "󱦗",
+        color: "#512bd4",
+        cterm_color: "56",
+        name: "RazorPage",
+      },
+      "cson": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "Cson",
+      },
+      "csproj": {
+        icon: "󰪮",
+        color: "#512bd4",
+        cterm_color: "56",
+        name: "CSharpProject",
+      },
+      "css": {
+        icon: "",
+        color: "#42a5f5",
+        cterm_color: "75",
+        name: "Css",
+      },
+      "csv": {
+        icon: "",
+        color: "#89e051",
+        cterm_color: "113",
+        name: "Csv",
+      },
+      "cts": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Cts",
+      },
+      "cu": {
+        icon: "",
+        color: "#89e051",
+        cterm_color: "113",
+        name: "cuda",
+      },
+      "cue": {
+        icon: "󰲹",
+        color: "#ed95ae",
+        cterm_color: "211",
+        name: "Cue",
+      },
+      "cuh": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "cudah",
+      },
+      "cxx": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Cxx",
+      },
+      "cxxm": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Cxxm",
+      },
+      "d": {
+        icon: "",
+        color: "#b03931",
+        cterm_color: "124",
+        name: "D",
+      },
+      "d.ts": {
+        icon: "",
+        color: "#d59855",
+        cterm_color: "172",
+        name: "TypeScriptDeclaration",
+      },
+      "dart": {
+        icon: "",
+        color: "#03589C",
+        cterm_color: "25",
+        name: "Dart",
+      },
+      "db": {
+        icon: "",
+        color: "#dad8d8",
+        cterm_color: "188",
+        name: "Db",
+      },
+      "dconf": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "Dconf",
+      },
+      "desktop": {
+        icon: "",
+        color: "#563d7c",
+        cterm_color: "54",
+        name: "DesktopEntry",
+      },
+      "diff": {
+        icon: "",
+        color: "#41535b",
+        cterm_color: "239",
+        name: "Diff",
+      },
+      "dll": {
+        icon: "",
+        color: "#4d2c0b",
+        cterm_color: "52",
+        name: "Dll",
+      },
+      "doc": {
+        icon: "󰈬",
+        color: "#185abd",
+        cterm_color: "26",
+        name: "Doc",
+      },
+      "Dockerfile": {
+        icon: "󰡨",
+        color: "#458ee6",
+        cterm_color: "68",
+        name: "Dockerfile",
+      },
+      "docx": {
+        icon: "󰈬",
+        color: "#185abd",
+        cterm_color: "26",
+        name: "Docx",
+      },
+      "dot": {
+        icon: "󱁉",
+        color: "#30638e",
+        cterm_color: "24",
+        name: "Dot",
+      },
+      "download": {
+        icon: "",
+        color: "#44cda8",
+        cterm_color: "43",
+        name: "Download",
+      },
+      "drl": {
+        icon: "",
+        color: "#ffafaf",
+        cterm_color: "217",
+        name: "Drools",
+      },
+      "dropbox": {
+        icon: "",
+        color: "#0061FE",
+        cterm_color: "27",
+        name: "Dropbox",
+      },
+      "dump": {
+        icon: "",
+        color: "#dad8d8",
+        cterm_color: "188",
+        name: "Dump",
+      },
+      "dwg": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "AutoCADDwg",
+      },
+      "dxf": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "AutoCADDxf",
+      },
+      "ebook": {
+        icon: "",
+        color: "#eab16d",
+        cterm_color: "215",
+        name: "Ebook",
+      },
+      "ebuild": {
+        icon: "",
+        color: "#4C416E",
+        cterm_color: "60",
+        name: "GentooBuild",
+      },
+      "edn": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Edn",
+      },
+      "eex": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Eex",
+      },
+      "ejs": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "Ejs",
+      },
+      "elf": {
+        icon: "",
+        color: "#9F0500",
+        cterm_color: "124",
+        name: "Elf",
+      },
+      "el": {
+        icon: "",
+        color: "#8172be",
+        cterm_color: "97",
+        name: "Elisp",
+      },
+      "elc": {
+        icon: "",
+        color: "#8172be",
+        cterm_color: "97",
+        name: "Elisp",
+      },
+      "elm": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Elm",
+      },
+      "eln": {
+        icon: "",
+        color: "#8172be",
+        cterm_color: "97",
+        name: "Elisp",
+      },
+      "env": {
+        icon: "",
+        color: "#faf743",
+        cterm_color: "227",
+        name: "Env",
+      },
+      "eot": {
+        icon: "",
+        color: "#ECECEC",
+        cterm_color: "255",
+        name: "EmbeddedOpenTypeFont",
+      },
+      "epp": {
+        icon: "",
+        color: "#FFA61A",
+        cterm_color: "214",
+        name: "Epp",
+      },
+      "epub": {
+        icon: "",
+        color: "#eab16d",
+        cterm_color: "215",
+        name: "Epub",
+      },
+      "erb": {
+        icon: "",
+        color: "#701516",
+        cterm_color: "52",
+        name: "Erb",
+      },
+      "erl": {
+        icon: "",
+        color: "#B83998",
+        cterm_color: "163",
+        name: "Erl",
+      },
+      "ex": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Ex",
+      },
+      "exe": {
+        icon: "",
+        color: "#9F0500",
+        cterm_color: "124",
+        name: "Exe",
+      },
+      "exs": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Exs",
+      },
+      "f#": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Fsharp",
+      },
+      "f3d": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "Fusion360",
+      },
+      "f90": {
+        icon: "󱈚",
+        color: "#734f96",
+        cterm_color: "97",
+        name: "Fortran",
+      },
+      "fbx": {
+        icon: "󰆧",
+        color: "#888888",
+        cterm_color: "102",
+        name: "3DObjectFile",
+      },
+      "fcbak": {
+        icon: "",
+        color: "#cb333b",
+        cterm_color: "160",
+        name: "FreeCAD",
+      },
+      "fcmacro": {
+        icon: "",
+        color: "#cb333b",
+        cterm_color: "160",
+        name: "FreeCAD",
+      },
+      "fcmat": {
+        icon: "",
+        color: "#cb333b",
+        cterm_color: "160",
+        name: "FreeCAD",
+      },
+      "fcparam": {
+        icon: "",
+        color: "#cb333b",
+        cterm_color: "160",
+        name: "FreeCAD",
+      },
+      "fcscript": {
+        icon: "",
+        color: "#cb333b",
+        cterm_color: "160",
+        name: "FreeCAD",
+      },
+      "fcstd": {
+        icon: "",
+        color: "#cb333b",
+        cterm_color: "160",
+        name: "FreeCAD",
+      },
+      "fcstd1": {
+        icon: "",
+        color: "#cb333b",
+        cterm_color: "160",
+        name: "FreeCAD",
+      },
+      "fctb": {
+        icon: "",
+        color: "#cb333b",
+        cterm_color: "160",
+        name: "FreeCAD",
+      },
+      "fctl": {
+        icon: "",
+        color: "#cb333b",
+        cterm_color: "160",
+        name: "FreeCAD",
+      },
+      "fdmdownload": {
+        icon: "",
+        color: "#44cda8",
+        cterm_color: "43",
+        name: "Fdmdownload",
+      },
+      "feature": {
+        icon: "",
+        color: "#00a818",
+        cterm_color: "34",
+        name: "Feature",
+      },
+      "fish": {
+        icon: "",
+        color: "#4d5a5e",
+        cterm_color: "240",
+        name: "Fish",
+      },
+      "flac": {
+        icon: "",
+        color: "#0075aa",
+        cterm_color: "24",
+        name: "FreeLosslessAudioCodec",
+      },
+      "flc": {
+        icon: "",
+        color: "#ECECEC",
+        cterm_color: "255",
+        name: "FIGletFontControl",
+      },
+      "flf": {
+        icon: "",
+        color: "#ECECEC",
+        cterm_color: "255",
+        name: "FIGletFontFormat",
+      },
+      "fnl": {
+        icon: "",
+        color: "#fff3d7",
+        cterm_color: "230",
+        name: "Fennel",
+      },
+      "fodg": {
+        icon: "",
+        color: "#FFFB57",
+        cterm_color: "227",
+        name: "LibreOfficeGraphics",
+      },
+      "fodp": {
+        icon: "",
+        color: "#FE9C45",
+        cterm_color: "215",
+        name: "LibreOfficeImpress",
+      },
+      "fods": {
+        icon: "",
+        color: "#78FC4E",
+        cterm_color: "119",
+        name: "LibreOfficeCalc",
+      },
+      "fodt": {
+        icon: "",
+        color: "#2DCBFD",
+        cterm_color: "81",
+        name: "LibreOfficeWriter",
+      },
+      "fs": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Fs",
+      },
+      "fsi": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Fsi",
+      },
+      "fsscript": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Fsscript",
+      },
+      "fsx": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Fsx",
+      },
+      "gcode": {
+        icon: "󰐫",
+        color: "#1471ad",
+        cterm_color: "32",
+        name: "GCode",
+      },
+      "gd": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "GDScript",
+      },
+      "gemspec": {
+        icon: "",
+        color: "#701516",
+        cterm_color: "52",
+        name: "Gemspec",
+      },
+      "gif": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Gif",
+      },
+      "git": {
+        icon: "",
+        color: "#F14C28",
+        cterm_color: "196",
+        name: "GitLogo",
+      },
+      "glb": {
+        icon: "",
+        color: "#FFB13B",
+        cterm_color: "214",
+        name: "BinaryGLTF",
+      },
+      "gleam": {
+        icon: "",
+        color: "#ffaff3",
+        cterm_color: "219",
+        name: "Gleam",
+      },
+      "gnumakefile": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "Makefile",
+      },
+      "go": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Go",
+      },
+      "godot": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "GodotProject",
+      },
+      "gpr": {
+        icon: "",
+        color: "#FF33FF",
+        cterm_color: "201",
+        name: "GPRBuildProject",
+      },
+      "gql": {
+        icon: "",
+        color: "#e535ab",
+        cterm_color: "199",
+        name: "GraphQL",
+      },
+      "gradle": {
+        icon: "",
+        color: "#005f87",
+        cterm_color: "24",
+        name: "Gradle",
+      },
+      "graphql": {
+        icon: "",
+        color: "#e535ab",
+        cterm_color: "199",
+        name: "GraphQL",
+      },
+      "gresource": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "GTK",
+      },
+      "gv": {
+        icon: "󱁉",
+        color: "#30638e",
+        cterm_color: "24",
+        name: "Gv",
+      },
+      "gz": {
+        icon: "",
+        color: "#eca517",
+        cterm_color: "214",
+        name: "Gz",
+      },
+      "h": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "H",
+      },
+      "haml": {
+        icon: "",
+        color: "#eaeae1",
+        cterm_color: "255",
+        name: "Haml",
+      },
+      "hx": {
+        icon: "",
+        color: "#ea8220",
+        cterm_color: "208",
+        name: "Haxe",
+      },
+      "hbs": {
+        icon: "",
+        color: "#f0772b",
+        cterm_color: "202",
+        name: "Hbs",
+      },
+      "hex": {
+        icon: "",
+        color: "#2e63ff",
+        cterm_color: "27",
+        name: "Hexadecimal",
+      },
+      "heex": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Heex",
+      },
+      "hh": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Hh",
+      },
+      "hpp": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Hpp",
+      },
+      "hrl": {
+        icon: "",
+        color: "#B83998",
+        cterm_color: "163",
+        name: "Hrl",
+      },
+      "hs": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Hs",
+      },
+      "http": {
+        icon: "",
+        color: "#008ec7",
+        cterm_color: "31",
+        name: "HTTP",
+      },
+      "htm": {
+        icon: "",
+        color: "#e34c26",
+        cterm_color: "196",
+        name: "Htm",
+      },
+      "html": {
+        icon: "",
+        color: "#e44d26",
+        cterm_color: "196",
+        name: "Html",
+      },
+      "huff": {
+        icon: "󰡘",
+        color: "#4242c7",
+        cterm_color: "56",
+        name: "Huff",
+      },
+      "hurl": {
+        icon: "",
+        color: "#ff0288",
+        cterm_color: "198",
+        name: "Hurl",
+      },
+      "hxx": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Hxx",
+      },
+      "ixx": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Ixx",
+      },
+      "ico": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "Ico",
+      },
+      "ical": {
+        icon: "",
+        color: "#2B2e83",
+        cterm_color: "18",
+        name: "Ical",
+      },
+      "icalendar": {
+        icon: "",
+        color: "#2B2e83",
+        cterm_color: "18",
+        name: "Icalendar",
+      },
+      "ics": {
+        icon: "",
+        color: "#2B2e83",
+        cterm_color: "18",
+        name: "Ics",
+      },
+      "ifb": {
+        icon: "",
+        color: "#2B2e83",
+        cterm_color: "18",
+        name: "Ifb",
+      },
+      "ifc": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "Ifc",
+      },
+      "ige": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "Ige",
+      },
+      "iges": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "Iges",
+      },
+      "igs": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "Igs",
+      },
+      "image": {
+        icon: "",
+        color: "#d0bec8",
+        cterm_color: "181",
+        name: "Image",
+      },
+      "img": {
+        icon: "",
+        color: "#d0bec8",
+        cterm_color: "181",
+        name: "Img",
+      },
+      "import": {
+        icon: "",
+        color: "#ECECEC",
+        cterm_color: "255",
+        name: "ImportConfiguration",
+      },
+      "info": {
+        icon: "",
+        color: "#ffffcd",
+        cterm_color: "230",
+        name: "Info",
+      },
+      "ini": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "Ini",
+      },
+      "ino": {
+        icon: "",
+        color: "#56b6c2",
+        cterm_color: "73",
+        name: "Arduino",
+      },
+      "iso": {
+        icon: "",
+        color: "#d0bec8",
+        cterm_color: "181",
+        name: "Iso",
+      },
+      "ipynb": {
+        icon: "",
+        color: "#f57d01",
+        cterm_color: "208",
+        name: "Notebook",
+      },
+      "java": {
+        icon: "",
+        color: "#cc3e44",
+        cterm_color: "167",
+        name: "Java",
+      },
+      "jl": {
+        icon: "",
+        color: "#a270ba",
+        cterm_color: "133",
+        name: "Jl",
+      },
+      "jwmrc": {
+        icon: "",
+        color: "#0078cd",
+        cterm_color: "32",
+        name: "JWM",
+      },
+      "jpeg": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Jpeg",
+      },
+      "jpg": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Jpg",
+      },
+      "js": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "Js",
+      },
+      "json": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "Json",
+      },
+      "json5": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "Json5",
+      },
+      "jsonc": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "Jsonc",
+      },
+      "jsx": {
+        icon: "",
+        color: "#20c2e3",
+        cterm_color: "45",
+        name: "Jsx",
+      },
+      "jxl": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "JpegXl",
+      },
+      "kbx": {
+        icon: "󰯄",
+        color: "#737672",
+        cterm_color: "243",
+        name: "Kbx",
+      },
+      "kdb": {
+        icon: "",
+        color: "#529b34",
+        cterm_color: "71",
+        name: "Kdb",
+      },
+      "kdbx": {
+        icon: "",
+        color: "#529b34",
+        cterm_color: "71",
+        name: "Kdbx",
+      },
+      "kdenlive": {
+        icon: "",
+        color: "#83b8f2",
+        cterm_color: "110",
+        name: "Kdenlive",
+      },
+      "kdenlivetitle": {
+        icon: "",
+        color: "#83b8f2",
+        cterm_color: "110",
+        name: "Kdenlive",
+      },
+      "kicad_dru": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "KiCad",
+      },
+      "kicad_mod": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "KiCad",
+      },
+      "kicad_pcb": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "KiCad",
+      },
+      "kicad_prl": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "KiCad",
+      },
+      "kicad_pro": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "KiCad",
+      },
+      "kicad_sch": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "KiCad",
+      },
+      "kicad_sym": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "KiCad",
+      },
+      "kicad_wks": {
+        icon: "",
+        color: "#ffffff",
+        cterm_color: "231",
+        name: "KiCad",
+      },
+      "ko": {
+        icon: "",
+        color: "#dcddd6",
+        cterm_color: "253",
+        name: "LinuxKernelObject",
+      },
+      "kpp": {
+        icon: "",
+        color: "#f245fb",
+        cterm_color: "201",
+        name: "Krita",
+      },
+      "kra": {
+        icon: "",
+        color: "#f245fb",
+        cterm_color: "201",
+        name: "Krita",
+      },
+      "krz": {
+        icon: "",
+        color: "#f245fb",
+        cterm_color: "201",
+        name: "Krita",
+      },
+      "ksh": {
+        icon: "",
+        color: "#4d5a5e",
+        cterm_color: "240",
+        name: "Ksh",
+      },
+      "kt": {
+        icon: "",
+        color: "#7F52FF",
+        cterm_color: "99",
+        name: "Kotlin",
+      },
+      "kts": {
+        icon: "",
+        color: "#7F52FF",
+        cterm_color: "99",
+        name: "KotlinScript",
+      },
+      "lck": {
+        icon: "",
+        color: "#bbbbbb",
+        cterm_color: "250",
+        name: "Lock",
+      },
+      "leex": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Leex",
+      },
+      "less": {
+        icon: "",
+        color: "#563d7c",
+        cterm_color: "54",
+        name: "Less",
+      },
+      "lff": {
+        icon: "",
+        color: "#ECECEC",
+        cterm_color: "255",
+        name: "LibrecadFontFile",
+      },
+      "lhs": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Lhs",
+      },
+      "lib": {
+        icon: "",
+        color: "#4d2c0b",
+        cterm_color: "52",
+        name: "Lib",
+      },
+      "license": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "License",
+      },
+      "liquid": {
+        icon: "",
+        color: "#95BF47",
+        cterm_color: "106",
+        name: "Liquid",
+      },
+      "lock": {
+        icon: "",
+        color: "#bbbbbb",
+        cterm_color: "250",
+        name: "Lock",
+      },
+      "log": {
+        icon: "󰌱",
+        color: "#dddddd",
+        cterm_color: "253",
+        name: "Log",
+      },
+      "lrc": {
+        icon: "󰨖",
+        color: "#ffb713",
+        cterm_color: "214",
+        name: "Lrc",
+      },
+      "lua": {
+        icon: "",
+        color: "#51a0cf",
+        cterm_color: "74",
+        name: "Lua",
+      },
+      "luac": {
+        icon: "",
+        color: "#51a0cf",
+        cterm_color: "74",
+        name: "Lua",
+      },
+      "luau": {
+        icon: "",
+        color: "#00a2ff",
+        cterm_color: "75",
+        name: "Luau",
+      },
+      "m3u": {
+        icon: "󰲹",
+        color: "#ed95ae",
+        cterm_color: "211",
+        name: "M3u",
+      },
+      "m3u8": {
+        icon: "󰲹",
+        color: "#ed95ae",
+        cterm_color: "211",
+        name: "M3u8",
+      },
+      "m4a": {
+        icon: "",
+        color: "#00afff",
+        cterm_color: "39",
+        name: "MPEG4",
+      },
+      "m4v": {
+        icon: "",
+        color: "#FD971F",
+        cterm_color: "208",
+        name: "M4V",
+      },
+      "magnet": {
+        icon: "",
+        color: "#a51b16",
+        cterm_color: "124",
+        name: "Magnet",
+      },
+      "makefile": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "Makefile",
+      },
+      "markdown": {
+        icon: "",
+        color: "#dddddd",
+        cterm_color: "253",
+        name: "Markdown",
+      },
+      "material": {
+        icon: "",
+        color: "#B83998",
+        cterm_color: "163",
+        name: "Material",
+      },
+      "md": {
+        icon: "",
+        color: "#dddddd",
+        cterm_color: "253",
+        name: "Md",
+      },
+      "md5": {
+        icon: "󰕥",
+        color: "#8c86af",
+        cterm_color: "103",
+        name: "Md5",
+      },
+      "mdx": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Mdx",
+      },
+      "mint": {
+        icon: "󰌪",
+        color: "#87c095",
+        cterm_color: "108",
+        name: "Mint",
+      },
+      "mjs": {
+        icon: "",
+        color: "#f1e05a",
+        cterm_color: "185",
+        name: "Mjs",
+      },
+      "mk": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "Makefile",
+      },
+      "mkv": {
+        icon: "",
+        color: "#FD971F",
+        cterm_color: "208",
+        name: "Mkv",
+      },
+      "ml": {
+        icon: "",
+        color: "#e37933",
+        cterm_color: "166",
+        name: "Ml",
+      },
+      "mli": {
+        icon: "",
+        color: "#e37933",
+        cterm_color: "166",
+        name: "Mli",
+      },
+      "m": {
+        icon: "",
+        color: "#599eff",
+        cterm_color: "111",
+        name: "ObjectiveC",
+      },
+      "mm": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "ObjectiveCPlusPlus",
+      },
+      "mo": {
+        icon: "",
+        color: "#9772FB",
+        cterm_color: "135",
+        name: "Motoko",
+      },
+      "mobi": {
+        icon: "",
+        color: "#eab16d",
+        cterm_color: "215",
+        name: "Mobi",
+      },
+      "mojo": {
+        icon: "",
+        color: "#ff4c1f",
+        cterm_color: "196",
+        name: "Mojo",
+      },
+      "🔥": {
+        icon: "",
+        color: "#ff4c1f",
+        cterm_color: "196",
+        name: "Mojo",
+      },
+      "mov": {
+        icon: "",
+        color: "#FD971F",
+        cterm_color: "208",
+        name: "MOV",
+      },
+      "mp3": {
+        icon: "",
+        color: "#00afff",
+        cterm_color: "39",
+        name: "MPEGAudioLayerIII",
+      },
+      "mp4": {
+        icon: "",
+        color: "#FD971F",
+        cterm_color: "208",
+        name: "Mp4",
+      },
+      "mpp": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Mpp",
+      },
+      "msf": {
+        icon: "",
+        color: "#137be1",
+        cterm_color: "33",
+        name: "Thunderbird",
+      },
+      "mts": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Mts",
+      },
+      "mustache": {
+        icon: "",
+        color: "#e37933",
+        cterm_color: "166",
+        name: "Mustache",
+      },
+      "nfo": {
+        icon: "",
+        color: "#ffffcd",
+        cterm_color: "230",
+        name: "Nfo",
+      },
+      "nim": {
+        icon: "",
+        color: "#f3d400",
+        cterm_color: "220",
+        name: "Nim",
+      },
+      "nix": {
+        icon: "",
+        color: "#7ebae4",
+        cterm_color: "110",
+        name: "Nix",
+      },
+      "norg": {
+        icon: "",
+        color: "#4878be",
+        cterm_color: "32",
+        name: "Norg",
+      },
+      "nswag": {
+        icon: "",
+        color: "#85ea2d",
+        cterm_color: "112",
+        name: "Nswag",
+      },
+      "nu": {
+        icon: "",
+        color: "#3aa675",
+        cterm_color: "36",
+        name: "Nushell",
+      },
+      "o": {
+        icon: "",
+        color: "#9F0500",
+        cterm_color: "124",
+        name: "ObjectFile",
+      },
+      "obj": {
+        icon: "󰆧",
+        color: "#888888",
+        cterm_color: "102",
+        name: "3DObjectFile",
+      },
+      "odf": {
+        icon: "",
+        color: "#FF5A96",
+        cterm_color: "204",
+        name: "LibreOfficeFormula",
+      },
+      "odg": {
+        icon: "",
+        color: "#FFFB57",
+        cterm_color: "227",
+        name: "LibreOfficeGraphics",
+      },
+      "odin": {
+        icon: "󰟢",
+        color: "#3882D2",
+        cterm_color: "32",
+        name: "Odin",
+      },
+      "odp": {
+        icon: "",
+        color: "#FE9C45",
+        cterm_color: "215",
+        name: "LibreOfficeImpress",
+      },
+      "ods": {
+        icon: "",
+        color: "#78FC4E",
+        cterm_color: "119",
+        name: "LibreOfficeCalc",
+      },
+      "odt": {
+        icon: "",
+        color: "#2DCBFD",
+        cterm_color: "81",
+        name: "LibreOfficeWriter",
+      },
+      "oga": {
+        icon: "",
+        color: "#0075aa",
+        cterm_color: "24",
+        name: "OggVorbis",
+      },
+      "ogg": {
+        icon: "",
+        color: "#0075aa",
+        cterm_color: "24",
+        name: "OggVorbis",
+      },
+      "ogv": {
+        icon: "",
+        color: "#FD971F",
+        cterm_color: "208",
+        name: "OggVideo",
+      },
+      "ogx": {
+        icon: "",
+        color: "#FD971F",
+        cterm_color: "208",
+        name: "OggMultiplex",
+      },
+      "opus": {
+        icon: "",
+        color: "#0075aa",
+        cterm_color: "24",
+        name: "OpusAudioFile",
+      },
+      "org": {
+        icon: "",
+        color: "#77AA99",
+        cterm_color: "73",
+        name: "OrgMode",
+      },
+      "otf": {
+        icon: "",
+        color: "#ECECEC",
+        cterm_color: "255",
+        name: "OpenTypeFont",
+      },
+      "out": {
+        icon: "",
+        color: "#9F0500",
+        cterm_color: "124",
+        name: "Out",
+      },
+      "part": {
+        icon: "",
+        color: "#44cda8",
+        cterm_color: "43",
+        name: "Part",
+      },
+      "patch": {
+        icon: "",
+        color: "#41535b",
+        cterm_color: "239",
+        name: "Patch",
+      },
+      "pck": {
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "PackedResource",
+      },
+      "pcm": {
+        icon: "",
+        color: "#0075aa",
+        cterm_color: "24",
+        name: "PulseCodeModulation",
+      },
+      "pdf": {
+        icon: "",
+        color: "#b30b00",
+        cterm_color: "124",
+        name: "Pdf",
+      },
+      "php": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Php",
+      },
+      "pl": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Pl",
+      },
+      "pls": {
+        icon: "󰲹",
+        color: "#ed95ae",
+        cterm_color: "211",
+        name: "Pls",
+      },
+      "ply": {
+        icon: "󰆧",
+        color: "#888888",
+        cterm_color: "102",
+        name: "3DObjectFile",
+      },
+      "pm": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Pm",
+      },
+      "png": {
+        icon: "",
+        color: "#a074c4",
+        cterm_color: "140",
+        name: "Png",
+      },
+      "po": {
+        icon: "",
+        color: "#2596be",
+        cterm_color: "31",
+        name: "Localization",
+      },
+      "pot": {
+        icon: "",
+        color: "#2596be",
+        cterm_color: "31",
+        name: "Localization",
+      },
+      "pp": {
+        icon: "",
+        color: "#FFA61A",
+        cterm_color: "214",
+        name: "Pp",
+      },
+      "ppt": {
+        icon: "󰈧",
+        color: "#cb4a32",
+        cterm_color: "160",
+        name: "Ppt",
+      },
+      "pptx": {
+        icon: "󰈧",
+        color: "#cb4a32",
+        cterm_color: "160",
+        name: "Pptx",
+      },
+      "prisma": {
+        icon: "",
+        color: "#5a67d8",
+        cterm_color: "62",
+        name: "Prisma",
+      },
+      "pro": {
+        icon: "",
+        color: "#e4b854",
+        cterm_color: "179",
+        name: "Prolog",
+      },
+      "ps1": {
+        icon: "󰨊",
+        color: "#4273ca",
+        cterm_color: "68",
+        name: "PsScriptfile",
+      },
+      "psd1": {
+        icon: "󰨊",
+        color: "#6975c4",
+        cterm_color: "68",
+        name: "PsManifestfile",
+      },
+      "psm1": {
+        icon: "󰨊",
+        color: "#6975c4",
+        cterm_color: "68",
+        name: "PsScriptModulefile",
+      },
+      "psb": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Psb",
+      },
+      "psd": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Psd",
+      },
+      "pub": {
+        icon: "󰷖",
+        color: "#e3c58e",
+        cterm_color: "222",
+        name: "Pub",
+      },
+      "pxd": {
+        icon: "",
+        color: "#5aa7e4",
+        cterm_color: "39",
+        name: "Pxd",
+      },
+      "pxi": {
+        icon: "",
+        color: "#5aa7e4",
+        cterm_color: "39",
+        name: "Pxi",
+      },
+      "py": {
+        icon: "",
+        color: "#ffbc03",
+        cterm_color: "214",
+        name: "Py",
+      },
+      "pyc": {
+        icon: "",
+        color: "#ffe291",
+        cterm_color: "222",
+        name: "Pyc",
+      },
+      "pyd": {
+        icon: "",
+        color: "#ffe291",
+        cterm_color: "222",
+        name: "Pyd",
+      },
+      "pyi": {
+        icon: "",
+        color: "#ffbc03",
+        cterm_color: "214",
+        name: "Pyi",
+      },
+      "pyo": {
+        icon: "",
+        color: "#ffe291",
+        cterm_color: "222",
+        name: "Pyo",
+      },
+      "pyw": {
+        icon: "",
+        color: "#5aa7e4",
+        cterm_color: "39",
+        name: "Pyw",
+      },
+      "pyx": {
+        icon: "",
+        color: "#5aa7e4",
+        cterm_color: "39",
+        name: "Pyx",
+      },
+      "qm": {
+        icon: "",
+        color: "#2596be",
+        cterm_color: "31",
+        name: "Localization",
+      },
+      "qml": {
+        icon: "",
+        color: "#40cd52",
+        cterm_color: "77",
+        name: "Qt",
+      },
+      "qrc": {
+        icon: "",
+        color: "#40cd52",
+        cterm_color: "77",
+        name: "Qt",
+      },
+      "qss": {
+        icon: "",
+        color: "#40cd52",
+        cterm_color: "77",
+        name: "Qt",
+      },
+      "query": {
+        icon: "",
+        color: "#90a850",
+        cterm_color: "107",
+        name: "Query",
+      },
+      "r": {
+        icon: "󰟔",
+        color: "#2266ba",
+        cterm_color: "25",
+        name: "R",
+      },
+      "R": {
+        icon: "󰟔",
+        color: "#2266ba",
+        cterm_color: "25",
+        name: "R",
+      },
+      "rake": {
+        icon: "",
+        color: "#701516",
+        cterm_color: "52",
+        name: "Rake",
+      },
+      "rar": {
+        icon: "",
+        color: "#eca517",
+        cterm_color: "214",
+        name: "Rar",
+      },
+      "razor": {
+        icon: "󱦘",
+        color: "#512bd4",
+        cterm_color: "56",
+        name: "RazorPage",
       },
       "rb": {
         icon: "",
         color: "#701516",
         cterm_color: "52",
-        name: "Rb"
+        name: "Rb",
+      },
+      "res": {
+        icon: "",
+        color: "#cc3e44",
+        cterm_color: "167",
+        name: "ReScript",
+      },
+      "resi": {
+        icon: "",
+        color: "#f55385",
+        cterm_color: "204",
+        name: "ReScriptInterface",
       },
       "rlib": {
         icon: "",
         color: "#dea584",
-        cterm_color: "180",
-        name: "Rlib"
+        cterm_color: "216",
+        name: "Rlib",
       },
       "rmd": {
         icon: "",
         color: "#519aba",
-        cterm_color: "67",
-        name: "Rmd"
+        cterm_color: "74",
+        name: "Rmd",
       },
       "rproj": {
-        icon: "鉶",
+        icon: "󰗆",
         color: "#358a5b",
-        cterm_color: "65",
-        name: "Rproj"
+        cterm_color: "29",
+        name: "Rproj",
       },
       "rs": {
-        icon: "",
+        icon: "",
         color: "#dea584",
-        cterm_color: "180",
-        name: "Rs"
+        cterm_color: "216",
+        name: "Rs",
       },
       "rss": {
         icon: "",
         color: "#FB9D3B",
         cterm_color: "215",
-        name: "Rss"
+        name: "Rss",
+      },
+      "s": {
+        icon: "",
+        color: "#0071C5",
+        cterm_color: "25",
+        name: "ASM",
       },
       "sass": {
         icon: "",
         color: "#f55385",
         cterm_color: "204",
-        name: "Sass"
+        name: "Sass",
       },
       "sbt": {
         icon: "",
         color: "#cc3e44",
         cterm_color: "167",
-        name: "sbt"
+        name: "sbt",
+      },
+      "scad": {
+        icon: "",
+        color: "#f9d72c",
+        cterm_color: "220",
+        name: "OpenSCAD",
       },
       "scala": {
         icon: "",
         color: "#cc3e44",
         cterm_color: "167",
-        name: "Scala"
+        name: "Scala",
+      },
+      "sc": {
+        icon: "",
+        color: "#cc3e44",
+        cterm_color: "167",
+        name: "ScalaScript",
       },
       "scm": {
-        icon: "ﬦ",
-        color: "#000000",
-        cterm_color: "16",
-        name: "Scheme"
+        icon: "󰘧",
+        color: "#eeeeee",
+        cterm_color: "255",
+        name: "Scheme",
       },
       "scss": {
         icon: "",
         color: "#f55385",
         cterm_color: "204",
-        name: "Scss"
+        name: "Scss",
       },
       "sh": {
         icon: "",
         color: "#4d5a5e",
-        cterm_color: "59",
-        name: "Sh"
+        cterm_color: "240",
+        name: "Sh",
+      },
+      "sha1": {
+        icon: "󰕥",
+        color: "#8c86af",
+        cterm_color: "103",
+        name: "Sha1",
+      },
+      "sha224": {
+        icon: "󰕥",
+        color: "#8c86af",
+        cterm_color: "103",
+        name: "Sha224",
+      },
+      "sha256": {
+        icon: "󰕥",
+        color: "#8c86af",
+        cterm_color: "103",
+        name: "Sha256",
+      },
+      "sha384": {
+        icon: "󰕥",
+        color: "#8c86af",
+        cterm_color: "103",
+        name: "Sha384",
+      },
+      "sha512": {
+        icon: "󰕥",
+        color: "#8c86af",
+        cterm_color: "103",
+        name: "Sha512",
       },
       "sig": {
-        icon: "λ",
+        icon: "󰘧",
         color: "#e37933",
-        cterm_color: "173",
-        name: "Sig"
+        cterm_color: "166",
+        name: "Sig",
+      },
+      "signature": {
+        icon: "󰘧",
+        color: "#e37933",
+        cterm_color: "166",
+        name: "Signature",
+      },
+      "skp": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "SketchUp",
+      },
+      "sldasm": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "SolidWorksAsm",
+      },
+      "sldprt": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "SolidWorksPrt",
       },
       "slim": {
         icon: "",
         color: "#e34c26",
-        cterm_color: "166",
-        name: "Slim"
+        cterm_color: "196",
+        name: "Slim",
       },
       "sln": {
         icon: "",
         color: "#854CC7",
         cterm_color: "98",
-        name: "Sln"
+        name: "Sln",
+      },
+      "slnx": {
+        icon: "",
+        color: "#854CC7",
+        cterm_color: "98",
+        name: "Slnx",
+      },
+      "slvs": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "SolveSpace",
       },
       "sml": {
-        icon: "λ",
+        icon: "󰘧",
         color: "#e37933",
-        cterm_color: "173",
-        name: "Sml"
+        cterm_color: "166",
+        name: "Sml",
+      },
+      "so": {
+        icon: "",
+        color: "#dcddd6",
+        cterm_color: "253",
+        name: "SharedObject",
+      },
+      "sol": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Solidity",
+      },
+      "spec.js": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "SpecJs",
+      },
+      "spec.jsx": {
+        icon: "",
+        color: "#20c2e3",
+        cterm_color: "45",
+        name: "JavaScriptReactSpec",
+      },
+      "spec.ts": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "SpecTs",
+      },
+      "spec.tsx": {
+        icon: "",
+        color: "#1354bf",
+        cterm_color: "26",
+        name: "TypeScriptReactSpec",
+      },
+      "spx": {
+        icon: "",
+        color: "#0075aa",
+        cterm_color: "24",
+        name: "OggSpeexAudio",
       },
       "sql": {
         icon: "",
         color: "#dad8d8",
         cterm_color: "188",
-        name: "Sql"
+        name: "Sql",
       },
       "sqlite": {
         icon: "",
         color: "#dad8d8",
         cterm_color: "188",
-        name: "Sql"
+        name: "Sql",
       },
       "sqlite3": {
         icon: "",
         color: "#dad8d8",
         cterm_color: "188",
-        name: "Sql"
+        name: "Sql",
+      },
+      "srt": {
+        icon: "󰨖",
+        color: "#ffb713",
+        cterm_color: "214",
+        name: "Srt",
+      },
+      "ssa": {
+        icon: "󰨖",
+        color: "#ffb713",
+        cterm_color: "214",
+        name: "Ssa",
+      },
+      "stl": {
+        icon: "󰆧",
+        color: "#888888",
+        cterm_color: "102",
+        name: "3DObjectFile",
+      },
+      "strings": {
+        icon: "",
+        color: "#2596be",
+        cterm_color: "31",
+        name: "Localization",
+      },
+      "ste": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "Ste",
+      },
+      "step": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "Step",
+      },
+      "stp": {
+        icon: "󰻫",
+        color: "#839463",
+        cterm_color: "101",
+        name: "Stp",
       },
       "styl": {
         icon: "",
         color: "#8dc149",
-        cterm_color: "107",
-        name: "Styl"
+        cterm_color: "113",
+        name: "Styl",
+      },
+      "sub": {
+        icon: "󰨖",
+        color: "#ffb713",
+        cterm_color: "214",
+        name: "Sub",
       },
       "sublime": {
         icon: "",
         color: "#e37933",
-        cterm_color: "98",
-        name: "Suo"
+        cterm_color: "166",
+        name: "Sublime",
       },
       "suo": {
         icon: "",
         color: "#854CC7",
         cterm_color: "98",
-        name: "Suo"
+        name: "Suo",
       },
       "sv": {
-        icon: "",
+        icon: "󰍛",
         color: "#019833",
-        cterm_color: "29",
-        name: "SystemVerilog"
+        cterm_color: "28",
+        name: "SystemVerilog",
       },
       "svelte": {
-        icon: "",
+        icon: "",
         color: "#ff3e00",
-        cterm_color: "202",
-        name: "Svelte"
+        cterm_color: "196",
+        name: "Svelte",
       },
       "svh": {
-        icon: "",
+        icon: "󰍛",
         color: "#019833",
-        cterm_color: "29",
-        name: "SystemVerilog"
+        cterm_color: "28",
+        name: "SystemVerilog",
       },
       "svg": {
-        icon: "ﰟ",
+        icon: "󰜡",
         color: "#FFB13B",
-        cterm_color: "215",
-        name: "Svg"
+        cterm_color: "214",
+        name: "Svg",
       },
       "swift": {
         icon: "",
         color: "#e37933",
-        cterm_color: "173",
-        name: "Swift"
+        cterm_color: "166",
+        name: "Swift",
       },
       "t": {
         icon: "",
         color: "#519aba",
-        cterm_color: "67",
-        name: "Tor"
+        cterm_color: "74",
+        name: "Tor",
       },
       "tbc": {
-        icon: "﯑",
+        icon: "󰛓",
         color: "#1e5cb3",
-        cterm_color: "67",
-        name: "Tcl"
+        cterm_color: "25",
+        name: "Tcl",
       },
       "tcl": {
-        icon: "﯑",
+        icon: "󰛓",
         color: "#1e5cb3",
-        cterm_color: "67",
-        name: "Tcl"
+        cterm_color: "25",
+        name: "Tcl",
+      },
+      "templ": {
+        icon: "",
+        color: "#dbbd30",
+        cterm_color: "178",
+        name: "Templ",
       },
       "terminal": {
         icon: "",
         color: "#31B53E",
-        cterm_color: "71",
-        name: "Terminal"
+        cterm_color: "34",
+        name: "Terminal",
+      },
+      "test.js": {
+        icon: "",
+        color: "#cbcb41",
+        cterm_color: "185",
+        name: "TestJs",
+      },
+      "test.jsx": {
+        icon: "",
+        color: "#20c2e3",
+        cterm_color: "45",
+        name: "JavaScriptReactTest",
+      },
+      "test.ts": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "TestTs",
+      },
+      "test.tsx": {
+        icon: "",
+        color: "#1354bf",
+        cterm_color: "26",
+        name: "TypeScriptReactTest",
       },
       "tex": {
-        icon: "ﭨ",
+        icon: "",
         color: "#3D6117",
-        cterm_color: "58",
-        name: "Tex"
+        cterm_color: "22",
+        name: "Tex",
       },
       "tf": {
-        icon: "",
+        icon: "",
         color: "#5F43E9",
-        cterm_color: "57",
-        name: "Terraform"
+        cterm_color: "93",
+        name: "Terraform",
       },
       "tfvars": {
         icon: "",
         color: "#5F43E9",
-        cterm_color: "57",
-        name: "TFVars"
+        cterm_color: "93",
+        name: "TFVars",
+      },
+      "tgz": {
+        icon: "",
+        color: "#eca517",
+        cterm_color: "214",
+        name: "Tgz",
+      },
+      "tmux": {
+        icon: "",
+        color: "#14ba19",
+        cterm_color: "34",
+        name: "Tmux",
       },
       "toml": {
-        icon: "",
-        color: "#6d8086",
-        cterm_color: "66",
-        name: "Toml"
+        icon: "",
+        color: "#9c4221",
+        cterm_color: "124",
+        name: "Toml",
+      },
+      "torrent": {
+        icon: "",
+        color: "#44cda8",
+        cterm_color: "43",
+        name: "Torrent",
       },
       "tres": {
-        icon: "",
-        color: "#cbcb41",
-        cterm_color: "185",
-        name: "TextResource"
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "GodotTextResource",
       },
       "ts": {
         icon: "",
         color: "#519aba",
-        cterm_color: "67",
-        name: "Ts"
+        cterm_color: "74",
+        name: "TypeScript",
       },
       "tscn": {
-        icon: "",
-        color: "#a074c4",
-        cterm_color: "140",
-        name: "TextScene"
+        icon: "",
+        color: "#6d8086",
+        cterm_color: "66",
+        name: "GodotTextScene",
+      },
+      "tsconfig": {
+        icon: "",
+        color: "#FF8700",
+        cterm_color: "208",
+        name: "TypoScriptConfig",
       },
       "tsx": {
         icon: "",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Tsx"
+        color: "#1354bf",
+        cterm_color: "26",
+        name: "Tsx",
+      },
+      "ttf": {
+        icon: "",
+        color: "#ECECEC",
+        cterm_color: "255",
+        name: "TrueTypeFont",
       },
       "twig": {
         icon: "",
         color: "#8dc149",
-        cterm_color: "107",
-        name: "Twig"
+        cterm_color: "113",
+        name: "Twig",
+      },
+      "txz": {
+        icon: "",
+        color: "#eca517",
+        cterm_color: "214",
+        name: "Txz",
+      },
+      "typ": {
+        icon: "",
+        color: "#0dbcc0",
+        cterm_color: "37",
+        name: "Typst",
+      },
+      "typoscript": {
+        icon: "",
+        color: "#FF8700",
+        cterm_color: "208",
+        name: "TypoScript",
       },
       "txt": {
-        icon: "",
+        icon: "󰈙",
         color: "#89e051",
         cterm_color: "113",
-        name: "Txt"
+        name: "Txt",
+      },
+      "ui": {
+        icon: "",
+        color: "#015BF0",
+        cterm_color: "27",
+        name: "UI",
       },
       "v": {
-        icon: "",
+        icon: "󰍛",
         color: "#019833",
-        cterm_color: "29",
-        name: "Verilog"
+        cterm_color: "28",
+        name: "Verilog",
+      },
+      "vala": {
+        icon: "",
+        color: "#7b3db9",
+        cterm_color: "91",
+        name: "Vala",
       },
       "vh": {
-        icon: "",
+        icon: "󰍛",
         color: "#019833",
-        cterm_color: "29",
-        name: "Verilog"
+        cterm_color: "28",
+        name: "Verilog",
       },
       "vhd": {
-        icon: "",
+        icon: "󰍛",
         color: "#019833",
-        cterm_color: "29",
-        name: "VHDL"
+        cterm_color: "28",
+        name: "VHDL",
       },
       "vhdl": {
-        icon: "",
+        icon: "󰍛",
         color: "#019833",
-        cterm_color: "29",
-        name: "VHDL"
+        cterm_color: "28",
+        name: "VHDL",
+      },
+      "vi": {
+        icon: "",
+        color: "#fec60a",
+        cterm_color: "220",
+        name: "LabView",
       },
       "vim": {
         icon: "",
         color: "#019833",
-        cterm_color: "29",
-        name: "Vim"
+        cterm_color: "28",
+        name: "Vim",
+      },
+      "vsh": {
+        icon: "",
+        color: "#5d87bf",
+        cterm_color: "67",
+        name: "Vlang",
+      },
+      "vsix": {
+        icon: "",
+        color: "#854CC7",
+        cterm_color: "98",
+        name: "Vsix",
       },
       "vue": {
         icon: "",
         color: "#8dc149",
-        cterm_color: "107",
-        name: "Vue"
+        cterm_color: "113",
+        name: "Vue",
+      },
+      "wasm": {
+        icon: "",
+        color: "#5c4cdb",
+        cterm_color: "62",
+        name: "Wasm",
+      },
+      "wav": {
+        icon: "",
+        color: "#00afff",
+        cterm_color: "39",
+        name: "WaveformAudioFile",
+      },
+      "webm": {
+        icon: "",
+        color: "#FD971F",
+        cterm_color: "208",
+        name: "Webm",
       },
       "webmanifest": {
         icon: "",
         color: "#f1e05a",
-        cterm_color: "221",
-        name: "Webmanifest"
+        cterm_color: "185",
+        name: "Webmanifest",
       },
       "webp": {
         icon: "",
         color: "#a074c4",
         cterm_color: "140",
-        name: "Webp"
+        name: "Webp",
       },
       "webpack": {
-        icon: "ﰩ",
+        icon: "󰜫",
         color: "#519aba",
-        cterm_color: "67",
-        name: "Webpack"
+        cterm_color: "74",
+        name: "Webpack",
+      },
+      "wma": {
+        icon: "",
+        color: "#00afff",
+        cterm_color: "39",
+        name: "WindowsMediaAudio",
+      },
+      "woff": {
+        icon: "",
+        color: "#ECECEC",
+        cterm_color: "255",
+        name: "WebOpenFontFormat",
+      },
+      "woff2": {
+        icon: "",
+        color: "#ECECEC",
+        cterm_color: "255",
+        name: "WebOpenFontFormat",
+      },
+      "wrl": {
+        icon: "󰆧",
+        color: "#888888",
+        cterm_color: "102",
+        name: "VRML",
+      },
+      "wrz": {
+        icon: "󰆧",
+        color: "#888888",
+        cterm_color: "102",
+        name: "VRML",
+      },
+      "wv": {
+        icon: "",
+        color: "#00afff",
+        cterm_color: "39",
+        name: "WavPack",
+      },
+      "wvc": {
+        icon: "",
+        color: "#00afff",
+        cterm_color: "39",
+        name: "WavPackCorrection",
+      },
+      "x": {
+        icon: "",
+        color: "#599eff",
+        cterm_color: "111",
+        name: "Logos",
+      },
+      "xm": {
+        icon: "",
+        color: "#519aba",
+        cterm_color: "74",
+        name: "Logos",
+      },
+      "xaml": {
+        icon: "󰙳",
+        color: "#512bd4",
+        cterm_color: "56",
+        name: "Xaml",
+      },
+      "xcf": {
+        icon: "",
+        color: "#635b46",
+        cterm_color: "240",
+        name: "GIMP",
       },
       "xcplayground": {
         icon: "",
         color: "#e37933",
-        cterm_color: "173",
-        name: "XcPlayground"
+        cterm_color: "166",
+        name: "XcPlayground",
+      },
+      "xcstrings": {
+        icon: "",
+        color: "#2596be",
+        cterm_color: "31",
+        name: "XcLocalization",
       },
       "xls": {
-        icon: "",
+        icon: "󰈛",
         color: "#207245",
-        cterm_color: "23",
-        name: "Xls"
+        cterm_color: "29",
+        name: "Xls",
+      },
+      "xlsx": {
+        icon: "󰈛",
+        color: "#207245",
+        cterm_color: "29",
+        name: "Xlsx",
       },
       "xml": {
-        icon: "謹",
+        icon: "󰗀",
         color: "#e37933",
-        cterm_color: "173",
-        name: "Xml"
+        cterm_color: "166",
+        name: "Xml",
+      },
+      "xpi": {
+        icon: "",
+        color: "#ff1b01",
+        cterm_color: "196",
+        name: "Xpi",
       },
       "xul": {
         icon: "",
         color: "#e37933",
-        cterm_color: "173",
-        name: "Xul"
+        cterm_color: "166",
+        name: "Xul",
+      },
+      "xz": {
+        icon: "",
+        color: "#eca517",
+        cterm_color: "214",
+        name: "Xz",
       },
       "yaml": {
         icon: "",
         color: "#6d8086",
         cterm_color: "66",
-        name: "Yaml"
+        name: "Yaml",
       },
       "yml": {
         icon: "",
         color: "#6d8086",
         cterm_color: "66",
-        name: "Yml"
+        name: "Yml",
       },
       "zig": {
-        icon: "",
+        icon: "",
         color: "#f69a1b",
-        cterm_color: "208",
-        name: "Zig"
+        cterm_color: "172",
+        name: "Zig",
+      },
+      "zip": {
+        icon: "",
+        color: "#eca517",
+        cterm_color: "214",
+        name: "Zip",
       },
       "zsh": {
         icon: "",
         color: "#89e051",
         cterm_color: "113",
-        name: "Zsh"
+        name: "Zsh",
       },
-      "sol": {
-        icon: "ﲹ",
-        color: "#519aba",
-        cterm_color: "67",
-        name: "Solidity"
+      "zst": {
+        icon: "",
+        color: "#eca517",
+        cterm_color: "214",
+        name: "Zst",
       },
-      ".env": {
-        icon: "",
-        color: "#faf743",
-        cterm_color: "226",
-        name: "Env"
-      },
-      "prisma": {
-        icon: "卑",
-        color: "#ffffff",
-        cterm_color: "white",
-        name: "Prisma"
-      },
-      "lock": {
-        icon: "",
-        color: "#bbbbbb",
-        cterm_color: "250",
-        name: "Lock"
-      },
-      "log": {
-        icon: "",
-        color: "#ffffff",
-        cterm_color: "white",
-        name: "Log"
-      }
     }
   )
 }
